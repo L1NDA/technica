@@ -27,7 +27,7 @@ function getBase64Image(imgUrl, callback) {
 }
 
 getBase64Image("https://source.unsplash.com/assets/photo-1428279148693-1cf2163ed67d-9869bbd99114f8d100a48d67d1b8ec56c4171e661131714f2b570e6dcc0b8bb3.jpg", function(base64image){
-     console.log(base64image);
+     // console.log(base64image);
      image["base64"] = base64image;
 });
 
@@ -39,12 +39,26 @@ const app = new Clarifai.App({
 });
 
 app.models.predict("eeed0b6733a644cea07cf4c60f87ebb7", imageUrl).then(
-    function(response) {
-      console.log("success")
-      console.log(response)
-    },
-    function(err) {
-      console.log(image)
-      console.log(err)
+      function(response) {
+        // colors = response.outputs[0].data.colors
+        // console.log(colors)
+        getHex(response.outputs[0].data.colors)
+      },
+      function(err) {
+        console.log(image)
+        console.log(err)
+      }
+    );
+
+function getHex(colors) {
+  boxes = document.querySelectorAll(".hex")
+  console.log(boxes)
+  console.log(colors)
+  boxes.forEach(function(box, index) {
+    if (colors[index]) {
+      box.style.display = "block";
+      box.style.backgroundColor = colors[index].raw_hex
     }
-  );
+  })
+
+}
