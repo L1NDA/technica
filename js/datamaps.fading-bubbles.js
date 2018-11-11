@@ -27,7 +27,7 @@ fadingBubbles = function(layer, data){
     var self = this,
         className = 'fadingBubble',
         defaultColor = 'white';
-        fillData = this.options.fills;
+        gradientData = this.options.gradients;
 
     // bind the data
     var bubbles = layer
@@ -78,8 +78,8 @@ fadingBubbles = function(layer, data){
         //
         // })
         .style('fill', function ( datum ) {
-          var fillColor = fillData[datum.gradientKey];
-          return fillColor || fillData.defaultFill;
+          var fillColor = gradientData[datum.gradientKey];
+          return fillColor || gradientData.defaultFill;
         })
         .style('stroke', function(d, i) {
 

@@ -8,7 +8,6 @@ let cities =
         radius: 25,
         rank: "1",
         state: "New York",
-        gradientKey: "GRAD"
     },
     {
         city: "Los Angeles",
@@ -18,7 +17,6 @@ let cities =
         radius: 20,
         rank: "2",
         state: "California",
-        gradientKey: "GRAD"
     },
     {
         city: "Chicago",
@@ -28,7 +26,6 @@ let cities =
         radius: 20,
         rank: "3",
         state: "Illinois",
-        gradientKey: "GRAD"
     },
     {
         city: "Houston",
@@ -38,7 +35,6 @@ let cities =
         radius: 20,
         rank: "4",
         state: "Texas",
-        gradientKey: "GRAD"
     },
     {
         city: "Philadelphia",
@@ -48,7 +44,6 @@ let cities =
         radius: 18,
         rank: "5",
         state: "Pennsylvania",
-        gradientKey: "GRAD"
     },
     {
         city: "Phoenix",
@@ -58,7 +53,6 @@ let cities =
         radius: 15,
         rank: "6",
         state: "Arizona",
-        gradientKey: "GRAD"
     },
     {
         city: "San Antonio",
@@ -67,7 +61,6 @@ let cities =
         longitude: -98.49362819999999,
         radius: 15,
         rank: "7",
-        gradientKey: "GRAD"
     },
     {
         city: "San Diego",
@@ -76,7 +69,6 @@ let cities =
         longitude: -117.1610838,
         radius: 15,
         rank: "8",
-        gradientKey: "GRAD"
     },
     {
         city: "Dallas",
@@ -85,7 +77,6 @@ let cities =
         longitude: -96.79698789999999,
         radius: 15,
         rank: "9",
-        gradientKey: "GRAD"
     },
     {
         city: "San Jose",
@@ -94,7 +85,6 @@ let cities =
         longitude: -121.8863286,
         radius: 6,
         rank: "10",
-        gradientKey: "GRAD"
     },
     {
         city: "Austin",
@@ -103,7 +93,6 @@ let cities =
         longitude: -97.7430608,
         radius: 6,
         rank: "11",
-        gradientKey: "GRAD"
     },
     {
         city: "Indianapolis",
@@ -112,7 +101,6 @@ let cities =
         longitude: -86.158068,
         radius: 6,
         rank: "12",
-        gradientKey: "GRAD"
     },
     {
         city: "Jacksonville",

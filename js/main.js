@@ -1,7 +1,8 @@
 function makeGradient(hex1, hex2, city) {
+  console.log(hex1, hex2, city);
   // lineargradient
   var myLinearGradient = document.createElementNS("http://www.w3.org/2000/svg", "radialGradient");
-  myLinearGradient.setAttribute("id", "gradient");
+  myLinearGradient.setAttribute("id", city);
 
   document.getElementById("mydefs").appendChild(myLinearGradient);
 
@@ -9,32 +10,50 @@ function makeGradient(hex1, hex2, city) {
   var stop1 = document.createElementNS("http://www.w3.org/2000/svg", "stop");
   stop1.setAttribute("offset", "75%");
   //stop1.setAttribute("style", "stop-color: White; stop-opacity: 1");
-  stop1.setAttribute("stop-color", "#858b87");
-  document.getElementById("gradient").appendChild(stop1);
+  stop1.setAttribute("stop-color", hex1);
+  document.getElementById(city).appendChild(stop1);
 
   var stop2 = document.createElementNS("http://www.w3.org/2000/svg", "stop");
-  stop2.setAttribute("offset", "100%");
+  stop2.setAttribute("offset", "95%");
   //stop2.setAttribute("style", "stop-color: #99cd9f; stop-opacity: 1");
-  stop2.setAttribute("stop-color", "#ab4d2b");
-  document.getElementById("gradient").appendChild(stop2);
+  stop2.setAttribute("stop-color", hex2);
+  document.getElementById(city).appendChild(stop2);
+
+  var solid = document.createElementNS("http://www.w3.org/2000/svg", "solidColor");
+  solid.setAttribute("id", city + "solid");
+  solid.setAttribute("solid-color", hex1);
+
+  document.getElementById("mydefs").appendChild(solid);
 
   defs = document.getElementById('mydefs');
-  console.log(mydefs);
+  console.log("defs:", defs);
 }
 
-makeGradient();
+imageUrl = []
 
-imageUrl= "https://source.unsplash.com/random/?sanfrancisco"
+for (const [key, value] of Object.entries(cities)) {
+  console.log(key, value);
+  imageUrl.push("https://source.unsplash.com/random/?" + value.gradientKey)
+}
+
+array1 = imageUrl.slice(0,30);
+array2 = imageUrl.slice(30,60);
+array3 = imageUrl.slice(60, 90);
+array4 = imageUrl.slice(90);
 
 // instantiate a new Clarifai app passing in your api key.
 const app = new Clarifai.App({
  apiKey: '4ca3d62af6c942a0b95ad8c17f7f8f5f'
 });
 
-app.models.predict("eeed0b6733a644cea07cf4c60f87ebb7", imageUrl).then(
+app.models.predict("eeed0b6733a644cea07cf4c60f87ebb7", array1).then(
       function(response) {
-        var city = imageUrl.substring(imageUrl.lastIndexOf("?") + 1);
-        getHex(response.outputs[0].data.colors[0], response.outputs[0].data.colors[1], city)
+        console.log(response);
+        for (var i = 0; i < array1.length; i++){
+          var url = array1[i]
+          var city = url.substring(url.lastIndexOf("?") + 1);
+          makeGradient(response.outputs[i].data.colors[0].raw_hex, response.outputs[i].data.colors[1].raw_hex, city)
+        }
       },
       function(err) {
         console.log(image)
@@ -88,7 +107,26 @@ var bubble_map = new Datamap({
             },
             fills: {
                 defaultFill: '#282828',
-                GRAD: 'url(#gradient)'
+                newyork: 'url(#newyorksolid)',
+                losangeles: 'url(#losangelessolid)',
+            },
+            gradients: {
+                defaultFill: 'white',
+                newyork: 'url(#newyork)',
+                losangeles: 'url(#losangeles)',
+                chicago: 'url(#chicago)',
+                houston: 'url(#houston)',
+                philadelphia: 'url(#philadelphia)',
+                phoenix: 'url(#phoenix)',
+                sanantonio: 'url(#sanantonio)',
+                sandiego: 'url(#sandiego)',
+                dallas: 'url(#dallas)',
+                sanjose: 'url(#sanjose)',
+                austin: 'url(#austin)',
+                indianapolis: 'url(#indianapolis)',
+                jacksonville: 'url(#jacksonville)',
+                sanfrancisco: 'url(#sanfrancisco)',
+                columbus: 'url(#columbus)',
             },
             data: {
                 'NY': { fillKey: 'MINOR' },
@@ -120,7 +158,6 @@ var sleep = 25000;
 
 var interval = setInterval(function() {
   drawBubbles(cities);
-  console.log(counter, interval);
 }, sleep);
 
 
