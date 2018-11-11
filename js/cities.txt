@@ -76,7 +76,7 @@ let cities =
         city: "San Jose",
         latitude: 37.3382082,
         longitude: -121.8863286,
-        radius: 10,
+        radius: 6,
         rank: "10",
         state: "California"
     },
@@ -84,7 +84,7 @@ let cities =
         city: "Austin",
         latitude: 30.267153,
         longitude: -97.7430608,
-        radius: 10,
+        radius: 6,
         rank: "11",
         state: "Texas"
     },
@@ -92,7 +92,7 @@ let cities =
         city: "Indianapolis",
         latitude: 39.768403,
         longitude: -86.158068,
-        radius: 10,
+        radius: 6,
         rank: "12",
         state: "Indiana"
     },
@@ -100,7 +100,7 @@ let cities =
         city: "Jacksonville",
         latitude: 30.3321838,
         longitude: -81.65565099999999,
-        radius: 10,
+        radius: 6,
         rank: "13",
         state: "Florida"
     },
@@ -108,7 +108,7 @@ let cities =
         city: "San Francisco",
         latitude: 37.7749295,
         longitude: -122.4194155,
-        radius: 10,
+        radius: 6,
         rank: "14",
         state: "California"
     },
@@ -116,7 +116,7 @@ let cities =
         city: "Columbus",
         latitude: 39.9611755,
         longitude: -82.99879419999999,
-        radius: 10,
+        radius: 6,
         rank: "15",
         state: "Ohio"
     },
@@ -124,7 +124,7 @@ let cities =
         city: "Charlotte",
         latitude: 35.2270869,
         longitude: -80.8431267,
-        radius: 10,
+        radius: 6,
         rank: "16",
         state: "North Carolina"
     },
@@ -132,7 +132,7 @@ let cities =
         city: "Fort Worth",
         latitude: 32.7554883,
         longitude: -97.3307658,
-        radius: 10,
+        radius: 6,
         rank: "17",
         state: "Texas"
     },
@@ -140,7 +140,7 @@ let cities =
         city: "Detroit",
         latitude: 42.331427,
         longitude: -83.0457538,
-        radius: 10,
+        radius: 6,
         rank: "18",
         state: "Michigan"
     },
@@ -148,7 +148,7 @@ let cities =
         city: "El Paso",
         latitude: 31.7775757,
         longitude: -106.4424559,
-        radius: 10,
+        radius: 6,
         rank: "19",
         state: "Texas"
     },
@@ -157,7 +157,7 @@ let cities =
         latitude: 35.1495343,
         longitude: -90.0489801,
         radius: 10,
-        rank: "20",
+        rank:"20",
         state: "Tennessee"
     },
     {
@@ -165,7 +165,7 @@ let cities =
         latitude: 47.6062095,
         longitude: -122.3320708,
         radius: 10,
-        rank: "21",
+        rank:"21",
         state: "Washington"
     },
     {
@@ -173,7 +173,7 @@ let cities =
         latitude: 39.7392358,
         longitude: -104.990251,
         radius: 10,
-        rank: "22",
+        rank:"22",
         state: "Colorado"
     },
     {
@@ -181,7 +181,7 @@ let cities =
         latitude: 38.9071923,
         longitude: -77.0368707,
         radius: 10,
-        rank: "23",
+        rank:"23",
         state: "District of Columbia"
     },
     {
@@ -189,7 +189,7 @@ let cities =
         latitude: 42.3600825,
         longitude: -71.0588801,
         radius: 10,
-        rank: "24",
+        rank:"24",
         state: "Massachusetts"
     },
     {
@@ -197,7 +197,7 @@ let cities =
         latitude: 36.1626638,
         longitude: -86.7816016,
         radius: 10,
-        rank: "25",
+        rank:"25",
         state: "Tennessee"
     },
     {
@@ -205,7 +205,7 @@ let cities =
         latitude: 39.2903848,
         longitude: -76.6121893,
         radius: 10,
-        rank: "26",
+        rank:"26",
         state: "Maryland"
     },
     {
@@ -213,7 +213,7 @@ let cities =
         latitude: 35.4675602,
         longitude: -97.5164276,
         radius: 10,
-        rank: "27",
+        rank:"27",
         state: "Oklahoma"
     },
     {
@@ -221,7 +221,7 @@ let cities =
         latitude: 38.2526647,
         longitude: -85.7584557,
         radius: 10,
-        rank: "28",
+        rank:"28",
         state: "Kentucky"
     },
     {
@@ -229,7 +229,7 @@ let cities =
         latitude: 45.5230622,
         longitude: -122.6764816,
         radius: 10,
-        rank: "29",
+        rank:"29",
         state: "Oregon"
     },
     {
@@ -237,7 +237,7 @@ let cities =
         latitude: 36.1699412,
         longitude: -115.1398296,
         radius: 10,
-        rank: "30",
+        rank:"30",
         state: "Nevada"
     },
     {
@@ -245,7 +245,7 @@ let cities =
         latitude: 43.0389025,
         longitude: -87.9064736,
         radius: 10,
-        rank: "31",
+        rank:"31",
         state: "Wisconsin"
     },
     {
@@ -253,7 +253,7 @@ let cities =
         latitude: 35.0853336,
         longitude: -106.6055534,
         radius: 10,
-        rank: "32",
+        rank:"32",
         state: "New Mexico"
     },
     {
@@ -261,7 +261,7 @@ let cities =
         latitude: 32.2217429,
         longitude: -110.926479,
         radius: 10,
-        rank: "33",
+        rank:"33",
         state: "Arizona"
     },
     {
@@ -269,7 +269,7 @@ let cities =
         latitude: 36.7468422,
         longitude: -119.7725868,
         radius: 10,
-        rank: "34",
+        rank:"34",
         state: "California"
     },
     {
@@ -277,7 +277,7 @@ let cities =
         latitude: 38.5815719,
         longitude: -121.4943996,
         radius: 10,
-        rank: "35",
+        rank:"35",
         state: "California"
     },
     {
@@ -285,7 +285,7 @@ let cities =
         latitude: 33.7700504,
         longitude: -118.1937395,
         radius: 10,
-        rank: "36",
+        rank:"36",
         state: "California"
     },
     {
@@ -293,7 +293,7 @@ let cities =
         latitude: 39.0997265,
         longitude: -94.5785667,
         radius: 10,
-        rank: "37",
+        rank:"37",
         state: "Missouri"
     },
     {
@@ -301,7 +301,7 @@ let cities =
         latitude: 33.4151843,
         longitude: -111.8314724,
         radius: 10,
-        rank: "38",
+        rank:"38",
         state: "Arizona"
     },
     {
@@ -309,14 +309,14 @@ let cities =
         latitude: 36.8529263,
         longitude: -75.97798499999999,
         radius: 10,
-        rank: "39",
+        rank:"39",
         state: "Virginia"
     },
     {
         city: "Atlanta",
         latitude: 33.7489954,
         longitude: -84.3879824,
-        radius: 10,
+        radius: 8,
         rank: "40",
         state: "Georgia"
     },
@@ -324,7 +324,7 @@ let cities =
         city: "Colorado Springs",
         latitude: 38.8338816,
         longitude: -104.8213634,
-        radius: 10,
+        radius: 8,
         rank: "41",
         state: "Colorado"
     },
@@ -332,7 +332,7 @@ let cities =
         city: "Omaha",
         latitude: 41.2523634,
         longitude: -95.99798829999999,
-        radius: 10,
+        radius: 8,
         rank: "42",
         state: "Nebraska"
     },
@@ -340,7 +340,7 @@ let cities =
         city: "Raleigh",
         latitude: 35.7795897,
         longitude: -78.6381787,
-        radius: 10,
+        radius: 8,
         rank: "43",
         state: "North Carolina"
     },
@@ -348,7 +348,7 @@ let cities =
         city: "Miami",
         latitude: 25.7616798,
         longitude: -80.1917902,
-        radius: 10,
+        radius: 8,
         rank: "44",
         state: "Florida"
     },
@@ -356,7 +356,7 @@ let cities =
         city: "Minneapolis",
         latitude: 44.977753,
         longitude: -93.2650108,
-        radius: 10,
+        radius: 8,
         rank: "46",
         state: "Minnesota"
     },
@@ -364,7 +364,7 @@ let cities =
         city: "Tulsa",
         latitude: 36.1539816,
         longitude: -95.99277500000001,
-        radius: 10,
+        radius: 8,
         rank: "47",
         state: "Oklahoma"
     },
@@ -372,7 +372,7 @@ let cities =
         city: "Cleveland",
         latitude: 41.49932,
         longitude: -81.6943605,
-        radius: 10,
+        radius: 8,
         rank: "48",
         state: "Ohio"
     },
@@ -380,7 +380,7 @@ let cities =
         city: "Wichita",
         latitude: 37.688889,
         longitude: -97.336111,
-        radius: 10,
+        radius: 8,
         rank: "49",
         state: "Kansas"
     },
@@ -388,7 +388,7 @@ let cities =
         city: "New Orleans",
         latitude: 29.95106579999999,
         longitude: -90.0715323,
-        radius: 10,
+        radius: 8,
         rank: "51",
         state: "Louisiana"
     },
@@ -396,7 +396,7 @@ let cities =
         city: "Bakersfield",
         latitude: 35.3732921,
         longitude: -119.0187125,
-        radius: 10,
+        radius: 8,
         rank: "52",
         state: "California"
     },
@@ -404,7 +404,7 @@ let cities =
         city: "Tampa",
         latitude: 27.950575,
         longitude: -82.4571776,
-        radius: 10,
+        radius: 8,
         rank: "53",
         state: "Florida"
     },
@@ -412,23 +412,15 @@ let cities =
         city: "Honolulu",
         latitude: 21.3069444,
         longitude: -157.8583333,
-        radius: 10,
+        radius: 8,
         rank: "54",
         state: "Hawaii"
-    },
-    {
-        city: "Aurora",
-        latitude: 39.7294319,
-        longitude: -104.8319195,
-        radius: 10,
-        rank: "55",
-        state: "Colorado"
     },
     {
         city: "St. Louis",
         latitude: 38.6270025,
         longitude: -90.19940419999999,
-        radius: 10,
+        radius: 8,
         rank: "58",
         state: "Missouri"
     },
@@ -436,7 +428,7 @@ let cities =
         city: "Riverside",
         latitude: 33.9533487,
         longitude: -117.3961564,
-        radius: 10,
+        radius: 8,
         rank: "59",
         state: "California"
     },
@@ -444,7 +436,7 @@ let cities =
         city: "Corpus Christi",
         latitude: 27.8005828,
         longitude: -97.39638099999999,
-        radius: 10,
+        radius: 6,
         rank: "60",
         state: "Texas"
     },
@@ -452,7 +444,7 @@ let cities =
         city: "Lexington-Fayette",
         latitude: 38.0405837,
         longitude: -84.5037164,
-        radius: 10,
+        radius: 6,
         rank: "61",
         state: "Kentucky"
     },
@@ -460,7 +452,7 @@ let cities =
         city: "Pittsburgh",
         latitude: 40.44062479999999,
         longitude: -79.9958864,
-        radius: 10,
+        radius: 6,
         rank: "62",
         state: "Pennsylvania"
     },
@@ -468,7 +460,7 @@ let cities =
         city: "Anchorage",
         latitude: 61.2180556,
         longitude: -149.9002778,
-        radius: 10,
+        radius: 6,
         rank: "63",
         state: "Alaska"
     },
@@ -476,7 +468,7 @@ let cities =
         city: "Cincinnati",
         latitude: 39.1031182,
         longitude: -84.5120196,
-        radius: 10,
+        radius: 6,
         rank: "65",
         state: "Ohio"
     },
@@ -484,7 +476,7 @@ let cities =
         city: "St. Paul",
         latitude: 44.9537029,
         longitude: -93.0899578,
-        radius: 10,
+        radius: 6,
         rank: "66",
         state: "Minnesota"
     },
@@ -492,7 +484,7 @@ let cities =
         city: "Toledo",
         latitude: 41.6639383,
         longitude: -83.55521200000001,
-        radius: 10,
+        radius: 6,
         rank: "67",
         state: "Ohio"
     },
@@ -500,7 +492,7 @@ let cities =
         city: "Greensboro",
         latitude: 36.0726354,
         longitude: -79.7919754,
-        radius: 10,
+        radius: 6,
         rank: "68",
         state: "North Carolina"
     },
@@ -508,23 +500,15 @@ let cities =
         city: "Newark",
         latitude: 40.735657,
         longitude: -74.1723667,
-        radius: 10,
+        radius: 6,
         rank: "69",
         state: "New Jersey"
-    },
-    {
-        city: "Henderson",
-        latitude: 36.0395247,
-        longitude: -114.9817213,
-        radius: 10,
-        rank: "71",
-        state: "Nevada"
     },
     {
         city: "Lincoln",
         latitude: 40.8257625,
         longitude: -96.6851982,
-        radius: 10,
+        radius: 6,
         rank: "72",
         state: "Nebraska"
     },
@@ -532,7 +516,7 @@ let cities =
         city: "Buffalo",
         latitude: 42.88644679999999,
         longitude: -78.8783689,
-        radius: 10,
+        radius: 6,
         rank: "73",
         state: "New York"
     },
@@ -540,7 +524,7 @@ let cities =
         city: "Fort Wayne",
         latitude: 41.079273,
         longitude: -85.1393513,
-        radius: 10,
+        radius: 6,
         rank: "76",
         state: "Indiana"
     },
@@ -548,7 +532,7 @@ let cities =
         city: "Orlando",
         latitude: 28.5383355,
         longitude: -81.3792365,
-        radius: 10,
+        radius: 6,
         rank: "77",
         state: "Florida"
     },
@@ -556,23 +540,15 @@ let cities =
         city: "Laredo",
         latitude: 27.5305671,
         longitude: -99.48032409999999,
-        radius: 10,
+        radius: 6,
         rank: "80",
         state: "Texas"
-    },
-    {
-        city: "Norfolk",
-        latitude: 36.8507689,
-        longitude: -76.28587259999999,
-        radius: 10,
-        rank: "81",
-        state: "Virginia"
     },
     {
         city: "Madison",
         latitude: 43.0730517,
         longitude: -89.4012302,
-        radius: 10,
+        radius: 6,
         rank: "83",
         state: "Wisconsin"
     },
@@ -580,7 +556,7 @@ let cities =
         city: "Lubbock",
         latitude: 33.5778631,
         longitude: -101.8551665,
-        radius: 10,
+        radius: 6,
         rank: "84",
         state: "Texas"
     },
@@ -588,7 +564,7 @@ let cities =
         city: "Reno",
         latitude: 39.5296329,
         longitude: -119.8138027,
-        radius: 10,
+        radius: 6,
         rank: "90",
         state: "Nevada"
     },
@@ -596,23 +572,15 @@ let cities =
         city: "Baton Rouge",
         latitude: 30.4582829,
         longitude: -91.1403196,
-        radius: 10,
+        radius: 6,
         rank: "93",
         state: "Louisiana"
-    },
-    {
-        city: "North Las Vegas",
-        latitude: 36.1988592,
-        longitude: -115.1175013,
-        radius: 10,
-        rank: "96",
-        state: "Nevada"
     },
     {
         city: "Boise City",
         latitude: 43.6187102,
         longitude: -116.2146068,
-        radius: 10,
+        radius: 6,
         rank: "98",
         state: "Idaho"
     },
@@ -620,7 +588,7 @@ let cities =
         city: "Richmond",
         latitude: 37.5407246,
         longitude: -77.4360481,
-        radius: 10,
+        radius: 6,
         rank: "99",
         state: "Virginia"
     },
@@ -628,7 +596,7 @@ let cities =
         city: "Birmingham",
         latitude: 33.5206608,
         longitude: -86.80248999999999,
-        radius: 10,
+        radius: 6,
         rank: "101",
         state: "Alabama"
     },
@@ -636,7 +604,7 @@ let cities =
         city: "Spokane",
         latitude: 47.6587802,
         longitude: -117.4260466,
-        radius: 10,
+        radius: 6,
         rank: "102",
         state: "Washington"
     },
@@ -644,7 +612,7 @@ let cities =
         city: "Rochester",
         latitude: 43.16103,
         longitude: -77.6109219,
-        radius: 10,
+        radius: 6,
         rank: "103",
         state: "New York"
     },
@@ -652,7 +620,7 @@ let cities =
         city: "Des Moines",
         latitude: 41.6005448,
         longitude: -93.6091064,
-        radius: 10,
+        radius: 6,
         rank: "104",
         state: "Iowa"
     },
@@ -660,7 +628,7 @@ let cities =
         city: "Tacoma",
         latitude: 47.2528768,
         longitude: -122.4442906,
-        radius: 10,
+        radius: 6,
         rank: "107",
         state: "Washington"
     },
@@ -668,7 +636,7 @@ let cities =
         city: "Columbus",
         latitude: 32.4609764,
         longitude: -84.9877094,
-        radius: 10,
+        radius: 6,
         rank: "110",
         state: "Georgia"
     },
@@ -676,7 +644,7 @@ let cities =
         city: "Montgomery",
         latitude: 32.3668052,
         longitude: -86.2999689,
-        radius: 10,
+        radius: 6,
         rank: "111",
         state: "Alabama"
     },
@@ -684,7 +652,7 @@ let cities =
         city: "Shreveport",
         latitude: 32.5251516,
         longitude: -93.7501789,
-        radius: 10,
+        radius: 6,
         rank: "113",
         state: "Louisiana"
     },
@@ -692,23 +660,15 @@ let cities =
         city: "Aurora",
         latitude: 41.7605849,
         longitude: -88.32007150000001,
-        radius: 10,
+        radius: 6,
         rank: "114",
         state: "Illinois"
-    },
-    {
-        city: "Akron",
-        latitude: 41.0814447,
-        longitude: -81.51900529999999,
-        radius: 10,
-        rank: "116",
-        state: "Ohio"
     },
     {
         city: "Little Rock",
         latitude: 34.7464809,
         longitude: -92.28959479999999,
-        radius: 10,
+        radius: 6,
         rank: "118",
         state: "Arkansas"
     },
@@ -716,7 +676,7 @@ let cities =
         city: "Augusta-Richmond County",
         latitude: 33.4734978,
         longitude: -82.0105148,
-        radius: 10,
+        radius: 6,
         rank: "119",
         state: "Georgia"
     },
@@ -724,7 +684,7 @@ let cities =
         city: "Amarillo",
         latitude: 35.2219971,
         longitude: -101.8312969,
-        radius: 10,
+        radius: 6,
         rank: "120",
         state: "Texas"
     },
@@ -732,7 +692,7 @@ let cities =
         city: "Mobile",
         latitude: 30.6953657,
         longitude: -88.0398912,
-        radius: 10,
+        radius: 6,
         rank: "122",
         state: "Alabama"
     },
@@ -740,7 +700,7 @@ let cities =
         city: "Grand Rapids",
         latitude: 42.9633599,
         longitude: -85.6680863,
-        radius: 10,
+        radius: 6,
         rank: "123",
         state: "Michigan"
     },
@@ -748,7 +708,7 @@ let cities =
         city: "Salt Lake City",
         latitude: 40.7607793,
         longitude: -111.8910474,
-        radius: 10,
+        radius: 6,
         rank: "124",
         state: "Utah"
     },
@@ -756,7 +716,7 @@ let cities =
         city: "Tallahassee",
         latitude: 30.4382559,
         longitude: -84.28073289999999,
-        radius: 10,
+        radius: 6,
         rank: "125",
         state: "Florida"
     },
@@ -764,7 +724,7 @@ let cities =
         city: "Huntsville",
         latitude: 34.7303688,
         longitude: -86.5861037,
-        radius: 10,
+        radius: 6,
         rank: "126",
         state: "Alabama"
     },
@@ -772,7 +732,7 @@ let cities =
         city: "Knoxville",
         latitude: 35.9606384,
         longitude: -83.9207392,
-        radius: 10,
+        radius: 6,
         rank: "128",
         state: "Tennessee"
     },
@@ -780,23 +740,15 @@ let cities =
         city: "Brownsville",
         latitude: 25.9017472,
         longitude: -97.4974838,
-        radius: 10,
+        radius: 6,
         rank: "131",
         state: "Texas"
-    },
-    {
-        city: "Overland Park",
-        latitude: 38.9822282,
-        longitude: -94.6707917,
-        radius: 10,
-        rank: "132",
-        state: "Kansas"
     },
     {
         city: "Providence",
         latitude: 41.8239891,
         longitude: -71.4128343,
-        radius: 10,
+        radius: 6,
         rank: "134",
         state: "Rhode Island"
     },
@@ -804,7 +756,7 @@ let cities =
         city: "Chattanooga",
         latitude: 35.0456297,
         longitude: -85.3096801,
-        radius: 10,
+        radius: 6,
         rank: "136",
         state: "Tennessee"
     },
@@ -812,7 +764,7 @@ let cities =
         city: "Jackson",
         latitude: 32.2987573,
         longitude: -90.1848103,
-        radius: 10,
+        radius: 6,
         rank: "138",
         state: "Mississippi"
     },
@@ -820,7 +772,7 @@ let cities =
         city: "Fort Lauderdale",
         latitude: 26.1224386,
         longitude: -80.13731740000001,
-        radius: 10,
+        radius: 6,
         rank: "139",
         state: "Florida"
     },
@@ -828,7 +780,7 @@ let cities =
         city: "Port St. Lucie",
         latitude: 27.2730492,
         longitude: -80.3582261,
-        radius: 10,
+        radius: 6,
         rank: "142",
         state: "Florida"
     },
@@ -836,7 +788,7 @@ let cities =
         city: "Vancouver",
         latitude: 45.6387281,
         longitude: -122.6614861,
-        radius: 10,
+        radius: 6,
         rank: "145",
         state: "Washington"
     },
@@ -844,7 +796,7 @@ let cities =
         city: "Cape Coral",
         latitude: 26.5628537,
         longitude: -81.9495331,
-        radius: 10,
+        radius: 6,
         rank: "146",
         state: "Florida"
     },
@@ -852,7 +804,7 @@ let cities =
         city: "Sioux Falls",
         latitude: 43.5445959,
         longitude: -96.73110340000001,
-        radius: 10,
+        radius: 6,
         rank: "147",
         state: "South Dakota"
     },
@@ -860,7 +812,7 @@ let cities =
         city: "Springfield",
         latitude: 37.2089572,
         longitude: -93.29229889999999,
-        radius: 10,
+        radius: 6,
         rank: "148",
         state: "Missouri"
     },
