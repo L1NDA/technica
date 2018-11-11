@@ -4,11 +4,7 @@ Chromaptic is a visualization of the colors representing cities in the United St
 
 The motivation behind this hack was to determine if there exists a color that best represents a city. Is Los Angeles more blue? Is Phoenix more orange? By building this program, we were able to see that in fact, this is true! 
 
-## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
-## Built With
+## Acknowledgements
 
 * [HTML5 Boilerplate](https://html5boilerplate.com/) - The front-end template
 * [cities.json](https://gist.github.com/Miserlou/c5cd8364bf9b2420bb29) - Database of 1000 largest US cities
