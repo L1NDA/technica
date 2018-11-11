@@ -3,7 +3,7 @@ fadingBubbles = function(layer, data){
     // the datamap instance
     var self = this,
         className = 'fadingBubble',
-        defaultColor = 'red';
+        defaultColor = 'white';
 
     // bind the data
     var bubbles = layer
@@ -62,7 +62,7 @@ fadingBubbles = function(layer, data){
             return defaultColor;
         })
         .transition()
-        .duration(2000)
+        .duration(10000)
         .ease(Math.sqrt)
         .attr('r', function(datum) {
 
@@ -70,7 +70,7 @@ fadingBubbles = function(layer, data){
              * The size of the bubble can be controlled using the magnitude
              * property
              */
-            return datum.magnitude ? datum.magnitude * 20 : 22;
+            return datum.magnitude ? datum.magnitude * 40 : 50;
 
         })
         .style('fill-opacity', 1e-6)
