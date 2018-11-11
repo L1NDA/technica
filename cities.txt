@@ -3,7 +3,7 @@
         city: "New York",
         latitude: 40.7127837,
         longitude: -74.0059413,
-        radius: 8405837,
+        radius: 84,
         rank: "1",
         state: "New York"
     },
@@ -11,7 +11,7 @@
         city: "Los Angeles",
         latitude: 34.0522342,
         longitude: -118.2436849,
-        radius: 3884307,
+        radius: 38,
         rank: "2",
         state: "California"
     },
@@ -19,7 +19,7 @@
         city: "Chicago",
         latitude: 41.8781136,
         longitude: -87.6297982,
-        radius: 2718782,
+        radius: 27,
         rank: "3",
         state: "Illinois"
     },
@@ -27,7 +27,7 @@
         city: "Houston",
         latitude: 29.7604267,
         longitude: -95.3698028,
-        radius: 2195914,
+        radius: 21,
         rank: "4",
         state: "Texas"
     },
@@ -35,7 +35,7 @@
         city: "Philadelphia",
         latitude: 39.9525839,
         longitude: -75.1652215,
-        radius: 1553165,
+        radius: 15,
         rank: "5",
         state: "Pennsylvania"
     },
@@ -43,7 +43,7 @@
         city: "Phoenix",
         latitude: 33.4483771,
         longitude: -112.0740373,
-        radius: 1513367,
+        radius: 15,
         rank: "6",
         state: "Arizona"
     },
@@ -51,7 +51,7 @@
         city: "San Antonio",
         latitude: 29.4241219,
         longitude: -98.49362819999999,
-        radius: 1409019,
+        radius: 14,
         rank: "7",
         state: "Texas"
     },
@@ -59,7 +59,7 @@
         city: "San Diego",
         latitude: 32.715738,
         longitude: -117.1610838,
-        radius: 1355896,
+        radius: 13,
         rank: "8",
         state: "California"
     },
@@ -67,7 +67,7 @@
         city: "Dallas",
         latitude: 32.7766642,
         longitude: -96.79698789999999,
-        radius: 1257676,
+        radius: 12,
         rank: "9",
         state: "Texas"
     },
@@ -75,7 +75,7 @@
         city: "San Jose",
         latitude: 37.3382082,
         longitude: -121.8863286,
-        radius: 998537,
+        radius: 9,
         rank: "10",
         state: "California"
     },
@@ -83,7 +83,7 @@
         city: "Austin",
         latitude: 30.267153,
         longitude: -97.7430608,
-        radius: 885400,
+        radius: 8,
         rank: "11",
         state: "Texas"
     },
@@ -91,7 +91,7 @@
         city: "Indianapolis",
         latitude: 39.768403,
         longitude: -86.158068,
-        radius: 843393,
+        radius: 8,
         rank: "12",
         state: "Indiana"
     },
@@ -99,7 +99,7 @@
         city: "Jacksonville",
         latitude: 30.3321838,
         longitude: -81.65565099999999,
-        radius: 842583,
+        radius: 8,
         rank: "13",
         state: "Florida"
     },
@@ -107,7 +107,7 @@
         city: "San Francisco",
         latitude: 37.7749295,
         longitude: -122.4194155,
-        radius: 837442,
+        radius: 8,
         rank: "14",
         state: "California"
     },
@@ -115,7 +115,7 @@
         city: "Columbus",
         latitude: 39.9611755,
         longitude: -82.99879419999999,
-        radius: 822553,
+        radius: 8,
         rank: "15",
         state: "Ohio"
     },
@@ -123,7 +123,7 @@
         city: "Charlotte",
         latitude: 35.2270869,
         longitude: -80.8431267,
-        radius: 792862,
+        radius: 7,
         rank: "16",
         state: "North Carolina"
     },
@@ -131,7 +131,7 @@
         city: "Fort Worth",
         latitude: 32.7554883,
         longitude: -97.3307658,
-        radius: 792727,
+        radius: 7,
         rank: "17",
         state: "Texas"
     },
@@ -139,7 +139,7 @@
         city: "Detroit",
         latitude: 42.331427,
         longitude: -83.0457538,
-        radius: 688701,
+        radius: 6,
         rank: "18",
         state: "Michigan"
     },
@@ -147,7 +147,7 @@
         city: "El Paso",
         latitude: 31.7775757,
         longitude: -106.4424559,
-        radius: 674433,
+        radius: 6,
         rank: "19",
         state: "Texas"
     },
@@ -155,7 +155,7 @@
         city: "Memphis",
         latitude: 35.1495343,
         longitude: -90.0489801,
-        radius: 653450,
+        radius: 6,
         rank: "20",
         state: "Tennessee"
     },
@@ -163,7 +163,7 @@
         city: "Seattle",
         latitude: 47.6062095,
         longitude: -122.3320708,
-        radius: 652405,
+        radius: 6,
         rank: "21",
         state: "Washington"
     },
@@ -171,7 +171,7 @@
         city: "Denver",
         latitude: 39.7392358,
         longitude: -104.990251,
-        radius: 649495,
+        radius: 6,
         rank: "22",
         state: "Colorado"
     },
@@ -179,7 +179,7 @@
         city: "Washington",
         latitude: 38.9071923,
         longitude: -77.0368707,
-        radius: 646449,
+        radius: 6,
         rank: "23",
         state: "District of Columbia"
     },
@@ -187,7 +187,7 @@
         city: "Boston",
         latitude: 42.3600825,
         longitude: -71.0588801,
-        radius: 645966,
+        radius: 6,
         rank: "24",
         state: "Massachusetts"
     },
@@ -195,7 +195,7 @@
         city: "Nashville-Davidson",
         latitude: 36.1626638,
         longitude: -86.7816016,
-        radius: 634464,
+        radius: 6,
         rank: "25",
         state: "Tennessee"
     },
@@ -203,7 +203,7 @@
         city: "Baltimore",
         latitude: 39.2903848,
         longitude: -76.6121893,
-        radius: 622104,
+        radius: 6,
         rank: "26",
         state: "Maryland"
     },
@@ -211,7 +211,7 @@
         city: "Oklahoma City",
         latitude: 35.4675602,
         longitude: -97.5164276,
-        radius: 610613,
+        radius: 6,
         rank: "27",
         state: "Oklahoma"
     },
@@ -219,7 +219,7 @@
         city: "Louisville/Jefferson County",
         latitude: 38.2526647,
         longitude: -85.7584557,
-        radius: 609893,
+        radius: 6,
         rank: "28",
         state: "Kentucky"
     },
@@ -227,7 +227,7 @@
         city: "Portland",
         latitude: 45.5230622,
         longitude: -122.6764816,
-        radius: 609456,
+        radius: 6,
         rank: "29",
         state: "Oregon"
     },
@@ -235,7 +235,7 @@
         city: "Las Vegas",
         latitude: 36.1699412,
         longitude: -115.1398296,
-        radius: 603488,
+        radius: 6,
         rank: "30",
         state: "Nevada"
     },
@@ -243,7 +243,7 @@
         city: "Milwaukee",
         latitude: 43.0389025,
         longitude: -87.9064736,
-        radius: 599164,
+        radius: 5,
         rank: "31",
         state: "Wisconsin"
     },
@@ -251,7 +251,7 @@
         city: "Albuquerque",
         latitude: 35.0853336,
         longitude: -106.6055534,
-        radius: 556495,
+        radius: 5,
         rank: "32",
         state: "New Mexico"
     },
@@ -259,7 +259,7 @@
         city: "Tucson",
         latitude: 32.2217429,
         longitude: -110.926479,
-        radius: 526116,
+        radius: 5,
         rank: "33",
         state: "Arizona"
     },
@@ -267,7 +267,7 @@
         city: "Fresno",
         latitude: 36.7468422,
         longitude: -119.7725868,
-        radius: 509924,
+        radius: 5,
         rank: "34",
         state: "California"
     },
@@ -275,7 +275,7 @@
         city: "Sacramento",
         latitude: 38.5815719,
         longitude: -121.4943996,
-        radius: 479686,
+        radius: 4,
         rank: "35",
         state: "California"
     },
@@ -283,7 +283,7 @@
         city: "Long Beach",
         latitude: 33.7700504,
         longitude: -118.1937395,
-        radius: 469428,
+        radius: 4,
         rank: "36",
         state: "California"
     },
@@ -291,7 +291,7 @@
         city: "Kansas City",
         latitude: 39.0997265,
         longitude: -94.5785667,
-        radius: 467007,
+        radius: 4,
         rank: "37",
         state: "Missouri"
     },
@@ -299,7 +299,7 @@
         city: "Mesa",
         latitude: 33.4151843,
         longitude: -111.8314724,
-        radius: 457587,
+        radius: 4,
         rank: "38",
         state: "Arizona"
     },
@@ -307,7 +307,7 @@
         city: "Virginia Beach",
         latitude: 36.8529263,
         longitude: -75.97798499999999,
-        radius: 448479,
+        radius: 4,
         rank: "39",
         state: "Virginia"
     },
@@ -315,7 +315,7 @@
         city: "Atlanta",
         latitude: 33.7489954,
         longitude: -84.3879824,
-        radius: 447841,
+        radius: 4,
         rank: "40",
         state: "Georgia"
     },
@@ -323,7 +323,7 @@
         city: "Colorado Springs",
         latitude: 38.8338816,
         longitude: -104.8213634,
-        radius: 439886,
+        radius: 4,
         rank: "41",
         state: "Colorado"
     },
@@ -331,7 +331,7 @@
         city: "Omaha",
         latitude: 41.2523634,
         longitude: -95.99798829999999,
-        radius: 434353,
+        radius: 4,
         rank: "42",
         state: "Nebraska"
     },
@@ -339,7 +339,7 @@
         city: "Raleigh",
         latitude: 35.7795897,
         longitude: -78.6381787,
-        radius: 431746,
+        radius: 4,
         rank: "43",
         state: "North Carolina"
     },
@@ -347,7 +347,7 @@
         city: "Miami",
         latitude: 25.7616798,
         longitude: -80.1917902,
-        radius: 417650,
+        radius: 4,
         rank: "44",
         state: "Florida"
     },
@@ -355,7 +355,7 @@
         city: "Oakland",
         latitude: 37.8043637,
         longitude: -122.2711137,
-        radius: 406253,
+        radius: 4,
         rank: "45",
         state: "California"
     },
@@ -363,7 +363,7 @@
         city: "Minneapolis",
         latitude: 44.977753,
         longitude: -93.2650108,
-        radius: 400070,
+        radius: 4,
         rank: "46",
         state: "Minnesota"
     },
@@ -371,7 +371,7 @@
         city: "Tulsa",
         latitude: 36.1539816,
         longitude: -95.99277500000001,
-        radius: 398121,
+        radius: 3,
         rank: "47",
         state: "Oklahoma"
     },
@@ -379,7 +379,7 @@
         city: "Cleveland",
         latitude: 41.49932,
         longitude: -81.6943605,
-        radius: 390113,
+        radius: 3,
         rank: "48",
         state: "Ohio"
     },
@@ -387,7 +387,7 @@
         city: "Wichita",
         latitude: 37.688889,
         longitude: -97.336111,
-        radius: 386552,
+        radius: 3,
         rank: "49",
         state: "Kansas"
     },
@@ -395,7 +395,7 @@
         city: "Arlington",
         latitude: 32.735687,
         longitude: -97.10806559999999,
-        radius: 379577,
+        radius: 3,
         rank: "50",
         state: "Texas"
     },
@@ -403,7 +403,7 @@
         city: "New Orleans",
         latitude: 29.95106579999999,
         longitude: -90.0715323,
-        radius: 378715,
+        radius: 3,
         rank: "51",
         state: "Louisiana"
     },
@@ -411,7 +411,7 @@
         city: "Bakersfield",
         latitude: 35.3732921,
         longitude: -119.0187125,
-        radius: 363630,
+        radius: 3,
         rank: "52",
         state: "California"
     },
@@ -419,7 +419,7 @@
         city: "Tampa",
         latitude: 27.950575,
         longitude: -82.4571776,
-        radius: 352957,
+        radius: 3,
         rank: "53",
         state: "Florida"
     },
@@ -427,7 +427,7 @@
         city: "Honolulu",
         latitude: 21.3069444,
         longitude: -157.8583333,
-        radius: 347884,
+        radius: 3,
         rank: "54",
         state: "Hawaii"
     },
@@ -435,7 +435,7 @@
         city: "Aurora",
         latitude: 39.7294319,
         longitude: -104.8319195,
-        radius: 345803,
+        radius: 3,
         rank: "55",
         state: "Colorado"
     },
@@ -443,7 +443,7 @@
         city: "Anaheim",
         latitude: 33.8352932,
         longitude: -117.9145036,
-        radius: 345012,
+        radius: 3,
         rank: "56",
         state: "California"
     },
@@ -451,7 +451,7 @@
         city: "Santa Ana",
         latitude: 33.7455731,
         longitude: -117.8678338,
-        radius: 334227,
+        radius: 3,
         rank: "57",
         state: "California"
     },
@@ -459,7 +459,7 @@
         city: "St. Louis",
         latitude: 38.6270025,
         longitude: -90.19940419999999,
-        radius: 318416,
+        radius: 3,
         rank: "58",
         state: "Missouri"
     },
@@ -467,7 +467,7 @@
         city: "Riverside",
         latitude: 33.9533487,
         longitude: -117.3961564,
-        radius: 316619,
+        radius: 3,
         rank: "59",
         state: "California"
     },
@@ -475,7 +475,7 @@
         city: "Corpus Christi",
         latitude: 27.8005828,
         longitude: -97.39638099999999,
-        radius: 316381,
+        radius: 3,
         rank: "60",
         state: "Texas"
     },
@@ -483,7 +483,7 @@
         city: "Lexington-Fayette",
         latitude: 38.0405837,
         longitude: -84.5037164,
-        radius: 308428,
+        radius: 3,
         rank: "61",
         state: "Kentucky"
     },
@@ -491,7 +491,7 @@
         city: "Pittsburgh",
         latitude: 40.44062479999999,
         longitude: -79.9958864,
-        radius: 305841,
+        radius: 3,
         rank: "62",
         state: "Pennsylvania"
     },
@@ -499,7 +499,7 @@
         city: "Anchorage",
         latitude: 61.2180556,
         longitude: -149.9002778,
-        radius: 300950,
+        radius: 3,
         rank: "63",
         state: "Alaska"
     },
@@ -507,7 +507,7 @@
         city: "Stockton",
         latitude: 37.9577016,
         longitude: -121.2907796,
-        radius: 298118,
+        radius: 2,
         rank: "64",
         state: "California"
     },
@@ -515,7 +515,7 @@
         city: "Cincinnati",
         latitude: 39.1031182,
         longitude: -84.5120196,
-        radius: 297517,
+        radius: 2,
         rank: "65",
         state: "Ohio"
     },
@@ -523,7 +523,7 @@
         city: "St. Paul",
         latitude: 44.9537029,
         longitude: -93.0899578,
-        radius: 294873,
+        radius: 2,
         rank: "66",
         state: "Minnesota"
     },
@@ -531,7 +531,7 @@
         city: "Toledo",
         latitude: 41.6639383,
         longitude: -83.55521200000001,
-        radius: 282313,
+        radius: 2,
         rank: "67",
         state: "Ohio"
     },
@@ -539,7 +539,7 @@
         city: "Greensboro",
         latitude: 36.0726354,
         longitude: -79.7919754,
-        radius: 279639,
+        radius: 2,
         rank: "68",
         state: "North Carolina"
     },
@@ -547,7 +547,7 @@
         city: "Newark",
         latitude: 40.735657,
         longitude: -74.1723667,
-        radius: 278427,
+        radius: 2,
         rank: "69",
         state: "New Jersey"
     },
@@ -555,7 +555,7 @@
         city: "Plano",
         latitude: 33.0198431,
         longitude: -96.6988856,
-        radius: 274409,
+        radius: 2,
         rank: "70",
         state: "Texas"
     },
@@ -563,7 +563,7 @@
         city: "Henderson",
         latitude: 36.0395247,
         longitude: -114.9817213,
-        radius: 270811,
+        radius: 2,
         rank: "71",
         state: "Nevada"
     },
@@ -571,7 +571,7 @@
         city: "Lincoln",
         latitude: 40.8257625,
         longitude: -96.6851982,
-        radius: 268738,
+        radius: 2,
         rank: "72",
         state: "Nebraska"
     },
@@ -579,7 +579,7 @@
         city: "Buffalo",
         latitude: 42.88644679999999,
         longitude: -78.8783689,
-        radius: 258959,
+        radius: 2,
         rank: "73",
         state: "New York"
     },
@@ -587,7 +587,7 @@
         city: "Jersey City",
         latitude: 40.72815749999999,
         longitude: -74.0776417,
-        radius: 257342,
+        radius: 2,
         rank: "74",
         state: "New Jersey"
     },
@@ -595,7 +595,7 @@
         city: "Chula Vista",
         latitude: 32.6400541,
         longitude: -117.0841955,
-        radius: 256780,
+        radius: 2,
         rank: "75",
         state: "California"
     },
@@ -603,7 +603,7 @@
         city: "Fort Wayne",
         latitude: 41.079273,
         longitude: -85.1393513,
-        radius: 256496,
+        radius: 2,
         rank: "76",
         state: "Indiana"
     },
@@ -611,7 +611,7 @@
         city: "Orlando",
         latitude: 28.5383355,
         longitude: -81.3792365,
-        radius: 255483,
+        radius: 2,
         rank: "77",
         state: "Florida"
     },
@@ -619,7 +619,7 @@
         city: "St. Petersburg",
         latitude: 27.773056,
         longitude: -82.64,
-        radius: 249688,
+        radius: 2,
         rank: "78",
         state: "Florida"
     },
@@ -627,7 +627,7 @@
         city: "Chandler",
         latitude: 33.3061605,
         longitude: -111.8412502,
-        radius: 249146,
+        radius: 2,
         rank: "79",
         state: "Arizona"
     },
@@ -635,7 +635,7 @@
         city: "Laredo",
         latitude: 27.5305671,
         longitude: -99.48032409999999,
-        radius: 248142,
+        radius: 2,
         rank: "80",
         state: "Texas"
     },
@@ -643,7 +643,7 @@
         city: "Norfolk",
         latitude: 36.8507689,
         longitude: -76.28587259999999,
-        radius: 246139,
+        radius: 2,
         rank: "81",
         state: "Virginia"
     },
@@ -651,7 +651,7 @@
         city: "Durham",
         latitude: 35.9940329,
         longitude: -78.898619,
-        radius: 245475,
+        radius: 2,
         rank: "82",
         state: "North Carolina"
     },
@@ -659,7 +659,7 @@
         city: "Madison",
         latitude: 43.0730517,
         longitude: -89.4012302,
-        radius: 243344,
+        radius: 2,
         rank: "83",
         state: "Wisconsin"
     },
@@ -667,7 +667,7 @@
         city: "Lubbock",
         latitude: 33.5778631,
         longitude: -101.8551665,
-        radius: 239538,
+        radius: 2,
         rank: "84",
         state: "Texas"
     },
@@ -675,7 +675,7 @@
         city: "Irvine",
         latitude: 33.6839473,
         longitude: -117.7946942,
-        radius: 236716,
+        radius: 2,
         rank: "85",
         state: "California"
     },
@@ -683,7 +683,7 @@
         city: "Winston-Salem",
         latitude: 36.09985959999999,
         longitude: -80.244216,
-        radius: 236441,
+        radius: 2,
         rank: "86",
         state: "North Carolina"
     },
@@ -691,7 +691,7 @@
         city: "Glendale",
         latitude: 33.5386523,
         longitude: -112.1859866,
-        radius: 234632,
+        radius: 2,
         rank: "87",
         state: "Arizona"
     },
@@ -699,7 +699,7 @@
         city: "Garland",
         latitude: 32.912624,
         longitude: -96.63888329999999,
-        radius: 234566,
+        radius: 2,
         rank: "88",
         state: "Texas"
     },
@@ -707,7 +707,7 @@
         city: "Hialeah",
         latitude: 25.8575963,
         longitude: -80.2781057,
-        radius: 233394,
+        radius: 2,
         rank: "89",
         state: "Florida"
     },
@@ -715,7 +715,7 @@
         city: "Reno",
         latitude: 39.5296329,
         longitude: -119.8138027,
-        radius: 233294,
+        radius: 2,
         rank: "90",
         state: "Nevada"
     },
@@ -723,7 +723,7 @@
         city: "Chesapeake",
         latitude: 36.7682088,
         longitude: -76.2874927,
-        radius: 230571,
+        radius: 2,
         rank: "91",
         state: "Virginia"
     },
@@ -731,7 +731,7 @@
         city: "Gilbert",
         latitude: 33.3528264,
         longitude: -111.789027,
-        radius: 229972,
+        radius: 2,
         rank: "92",
         state: "Arizona"
     },
@@ -739,7 +739,7 @@
         city: "Baton Rouge",
         latitude: 30.4582829,
         longitude: -91.1403196,
-        radius: 229426,
+        radius: 2,
         rank: "93",
         state: "Louisiana"
     },
@@ -747,7 +747,7 @@
         city: "Irving",
         latitude: 32.8140177,
         longitude: -96.9488945,
-        radius: 228653,
+        radius: 2,
         rank: "94",
         state: "Texas"
     },
@@ -755,7 +755,7 @@
         city: "Scottsdale",
         latitude: 33.4941704,
         longitude: -111.9260519,
-        radius: 226918,
+        radius: 2,
         rank: "95",
         state: "Arizona"
     },
@@ -763,7 +763,7 @@
         city: "North Las Vegas",
         latitude: 36.1988592,
         longitude: -115.1175013,
-        radius: 226877,
+        radius: 2,
         rank: "96",
         state: "Nevada"
     },
@@ -771,7 +771,7 @@
         city: "Fremont",
         latitude: 37.5482697,
         longitude: -121.9885719,
-        radius: 224922,
+        radius: 2,
         rank: "97",
         state: "California"
     },
@@ -779,7 +779,7 @@
         city: "Boise City",
         latitude: 43.6187102,
         longitude: -116.2146068,
-        radius: 214237,
+        radius: 2,
         rank: "98",
         state: "Idaho"
     },
@@ -787,7 +787,7 @@
         city: "Richmond",
         latitude: 37.5407246,
         longitude: -77.4360481,
-        radius: 214114,
+        radius: 2,
         rank: "99",
         state: "Virginia"
     },
@@ -795,7 +795,7 @@
         city: "San Bernardino",
         latitude: 34.1083449,
         longitude: -117.2897652,
-        radius: 213708,
+        radius: 2,
         rank: "100",
         state: "California"
     },
@@ -803,7 +803,7 @@
         city: "Birmingham",
         latitude: 33.5206608,
         longitude: -86.80248999999999,
-        radius: 212113,
+        radius: 2,
         rank: "101",
         state: "Alabama"
     },
@@ -811,7 +811,7 @@
         city: "Spokane",
         latitude: 47.6587802,
         longitude: -117.4260466,
-        radius: 210721,
+        radius: 2,
         rank: "102",
         state: "Washington"
     },
@@ -819,7 +819,7 @@
         city: "Rochester",
         latitude: 43.16103,
         longitude: -77.6109219,
-        radius: 210358,
+        radius: 2,
         rank: "103",
         state: "New York"
     },
@@ -827,7 +827,7 @@
         city: "Des Moines",
         latitude: 41.6005448,
         longitude: -93.6091064,
-        radius: 207510,
+        radius: 2,
         rank: "104",
         state: "Iowa"
     },
@@ -835,7 +835,7 @@
         city: "Modesto",
         latitude: 37.63909719999999,
         longitude: -120.9968782,
-        radius: 204933,
+        radius: 2,
         rank: "105",
         state: "California"
     },
@@ -843,7 +843,7 @@
         city: "Fayetteville",
         latitude: 35.0526641,
         longitude: -78.87835849999999,
-        radius: 204408,
+        radius: 2,
         rank: "106",
         state: "North Carolina"
     },
@@ -851,7 +851,7 @@
         city: "Tacoma",
         latitude: 47.2528768,
         longitude: -122.4442906,
-        radius: 203446,
+        radius: 2,
         rank: "107",
         state: "Washington"
     },
@@ -859,7 +859,7 @@
         city: "Oxnard",
         latitude: 34.1975048,
         longitude: -119.1770516,
-        radius: 203007,
+        radius: 2,
         rank: "108",
         state: "California"
     },
@@ -867,7 +867,7 @@
         city: "Fontana",
         latitude: 34.0922335,
         longitude: -117.435048,
-        radius: 203003,
+        radius: 2,
         rank: "109",
         state: "California"
     },
@@ -875,7 +875,7 @@
         city: "Columbus",
         latitude: 32.4609764,
         longitude: -84.9877094,
-        radius: 202824,
+        radius: 2,
         rank: "110",
         state: "Georgia"
     },
@@ -883,7 +883,7 @@
         city: "Montgomery",
         latitude: 32.3668052,
         longitude: -86.2999689,
-        radius: 201332,
+        radius: 2,
         rank: "111",
         state: "Alabama"
     },
@@ -891,7 +891,7 @@
         city: "Moreno Valley",
         latitude: 33.9424658,
         longitude: -117.2296717,
-        radius: 201175,
+        radius: 2,
         rank: "112",
         state: "California"
     },
@@ -899,7 +899,7 @@
         city: "Shreveport",
         latitude: 32.5251516,
         longitude: -93.7501789,
-        radius: 200327,
+        radius: 2,
         rank: "113",
         state: "Louisiana"
     },
@@ -907,7 +907,7 @@
         city: "Aurora",
         latitude: 41.7605849,
         longitude: -88.32007150000001,
-        radius: 199963,
+        radius: 1,
         rank: "114",
         state: "Illinois"
     },
@@ -915,7 +915,7 @@
         city: "Yonkers",
         latitude: 40.9312099,
         longitude: -73.89874689999999,
-        radius: 199766,
+        radius: 1,
         rank: "115",
         state: "New York"
     },
@@ -923,7 +923,7 @@
         city: "Akron",
         latitude: 41.0814447,
         longitude: -81.51900529999999,
-        radius: 198100,
+        radius: 1,
         rank: "116",
         state: "Ohio"
     },
@@ -931,7 +931,7 @@
         city: "Huntington Beach",
         latitude: 33.660297,
         longitude: -117.9992265,
-        radius: 197575,
+        radius: 1,
         rank: "117",
         state: "California"
     },
@@ -939,7 +939,7 @@
         city: "Little Rock",
         latitude: 34.7464809,
         longitude: -92.28959479999999,
-        radius: 197357,
+        radius: 1,
         rank: "118",
         state: "Arkansas"
     },
@@ -947,7 +947,7 @@
         city: "Augusta-Richmond County",
         latitude: 33.4734978,
         longitude: -82.0105148,
-        radius: 197350,
+        radius: 1,
         rank: "119",
         state: "Georgia"
     },
@@ -955,7 +955,7 @@
         city: "Amarillo",
         latitude: 35.2219971,
         longitude: -101.8312969,
-        radius: 196429,
+        radius: 1,
         rank: "120",
         state: "Texas"
     },
@@ -963,7 +963,7 @@
         city: "Glendale",
         latitude: 34.1425078,
         longitude: -118.255075,
-        radius: 196021,
+        radius: 1,
         rank: "121",
         state: "California"
     },
@@ -971,7 +971,7 @@
         city: "Mobile",
         latitude: 30.6953657,
         longitude: -88.0398912,
-        radius: 194899,
+        radius: 1,
         rank: "122",
         state: "Alabama"
     },
@@ -979,7 +979,7 @@
         city: "Grand Rapids",
         latitude: 42.9633599,
         longitude: -85.6680863,
-        radius: 192294,
+        radius: 1,
         rank: "123",
         state: "Michigan"
     },
@@ -987,7 +987,7 @@
         city: "Salt Lake City",
         latitude: 40.7607793,
         longitude: -111.8910474,
-        radius: 191180,
+        radius: 1,
         rank: "124",
         state: "Utah"
     },
@@ -995,7 +995,7 @@
         city: "Tallahassee",
         latitude: 30.4382559,
         longitude: -84.28073289999999,
-        radius: 186411,
+        radius: 1,
         rank: "125",
         state: "Florida"
     },
@@ -1003,7 +1003,7 @@
         city: "Huntsville",
         latitude: 34.7303688,
         longitude: -86.5861037,
-        radius: 186254,
+        radius: 1,
         rank: "126",
         state: "Alabama"
     },
@@ -1011,7 +1011,7 @@
         city: "Grand Prairie",
         latitude: 32.7459645,
         longitude: -96.99778459999999,
-        radius: 183372,
+        radius: 1,
         rank: "127",
         state: "Texas"
     },
@@ -1019,7 +1019,7 @@
         city: "Knoxville",
         latitude: 35.9606384,
         longitude: -83.9207392,
-        radius: 183270,
+        radius: 1,
         rank: "128",
         state: "Tennessee"
     },
@@ -1027,7 +1027,7 @@
         city: "Worcester",
         latitude: 42.2625932,
         longitude: -71.8022934,
-        radius: 182544,
+        radius: 1,
         rank: "129",
         state: "Massachusetts"
     },
@@ -1035,7 +1035,7 @@
         city: "Newport News",
         latitude: 37.0870821,
         longitude: -76.4730122,
-        radius: 182020,
+        radius: 1,
         rank: "130",
         state: "Virginia"
     },
@@ -1043,7 +1043,7 @@
         city: "Brownsville",
         latitude: 25.9017472,
         longitude: -97.4974838,
-        radius: 181860,
+        radius: 1,
         rank: "131",
         state: "Texas"
     },
@@ -1051,7 +1051,7 @@
         city: "Overland Park",
         latitude: 38.9822282,
         longitude: -94.6707917,
-        radius: 181260,
+        radius: 1,
         rank: "132",
         state: "Kansas"
     },
@@ -1059,7 +1059,7 @@
         city: "Santa Clarita",
         latitude: 34.3916641,
         longitude: -118.542586,
-        radius: 179590,
+        radius: 1,
         rank: "133",
         state: "California"
     },
@@ -1067,7 +1067,7 @@
         city: "Providence",
         latitude: 41.8239891,
         longitude: -71.4128343,
-        radius: 177994,
+        radius: 1,
         rank: "134",
         state: "Rhode Island"
     },
@@ -1075,7 +1075,7 @@
         city: "Garden Grove",
         latitude: 33.7739053,
         longitude: -117.9414477,
-        radius: 175140,
+        radius: 1,
         rank: "135",
         state: "California"
     },
@@ -1083,7 +1083,7 @@
         city: "Chattanooga",
         latitude: 35.0456297,
         longitude: -85.3096801,
-        radius: 173366,
+        radius: 1,
         rank: "136",
         state: "Tennessee"
     },
@@ -1091,7 +1091,7 @@
         city: "Oceanside",
         latitude: 33.1958696,
         longitude: -117.3794834,
-        radius: 172794,
+        radius: 1,
         rank: "137",
         state: "California"
     },
@@ -1099,7 +1099,7 @@
         city: "Jackson",
         latitude: 32.2987573,
         longitude: -90.1848103,
-        radius: 172638,
+        radius: 1,
         rank: "138",
         state: "Mississippi"
     },
@@ -1107,7 +1107,7 @@
         city: "Fort Lauderdale",
         latitude: 26.1224386,
         longitude: -80.13731740000001,
-        radius: 172389,
+        radius: 1,
         rank: "139",
         state: "Florida"
     },
@@ -1115,7 +1115,7 @@
         city: "Santa Rosa",
         latitude: 38.440429,
         longitude: -122.7140548,
-        radius: 171990,
+        radius: 1,
         rank: "140",
         state: "California"
     },
@@ -1123,7 +1123,7 @@
         city: "Rancho Cucamonga",
         latitude: 34.10639889999999,
         longitude: -117.5931084,
-        radius: 171386,
+        radius: 1,
         rank: "141",
         state: "California"
     },
@@ -1131,7 +1131,7 @@
         city: "Port St. Lucie",
         latitude: 27.2730492,
         longitude: -80.3582261,
-        radius: 171016,
+        radius: 1,
         rank: "142",
         state: "Florida"
     },
@@ -1139,7 +1139,7 @@
         city: "Tempe",
         latitude: 33.4255104,
         longitude: -111.9400054,
-        radius: 168228,
+        radius: 1,
         rank: "143",
         state: "Arizona"
     },
@@ -1147,7 +1147,7 @@
         city: "Ontario",
         latitude: 34.0633443,
         longitude: -117.6508876,
-        radius: 167500,
+        radius: 1,
         rank: "144",
         state: "California"
     },
@@ -1155,7 +1155,7 @@
         city: "Vancouver",
         latitude: 45.6387281,
         longitude: -122.6614861,
-        radius: 167405,
+        radius: 1,
         rank: "145",
         state: "Washington"
     },
@@ -1163,7 +1163,7 @@
         city: "Cape Coral",
         latitude: 26.5628537,
         longitude: -81.9495331,
-        radius: 165831,
+        radius: 1,
         rank: "146",
         state: "Florida"
     },
@@ -1171,7 +1171,7 @@
         city: "Sioux Falls",
         latitude: 43.5445959,
         longitude: -96.73110340000001,
-        radius: 164676,
+        radius: 1,
         rank: "147",
         state: "South Dakota"
     },
@@ -1179,7 +1179,7 @@
         city: "Springfield",
         latitude: 37.2089572,
         longitude: -93.29229889999999,
-        radius: 164122,
+        radius: 1,
         rank: "148",
         state: "Missouri"
     },
@@ -1187,7 +1187,7 @@
         city: "Peoria",
         latitude: 33.5805955,
         longitude: -112.2373779,
-        radius: 162592,
+        radius: 1,
         rank: "149",
         state: "Arizona"
     },
@@ -1195,808 +1195,8 @@
         city: "Pembroke Pines",
         latitude: 26.007765,
         longitude: -80.2962555,
-        radius: 162329,
+        radius: 1,
         rank: "150",
         state: "Florida"
-    },
-    {
-        city: "Elk Grove",
-        latitude: 38.4087993,
-        longitude: -121.3716178,
-        radius: 161007,
-        rank: "151",
-        state: "California"
-    },
-    {
-        city: "Salem",
-        latitude: 44.9428975,
-        longitude: -123.0350963,
-        radius: 160614,
-        rank: "152",
-        state: "Oregon"
-    },
-    {
-        city: "Lancaster",
-        latitude: 34.6867846,
-        longitude: -118.1541632,
-        radius: 159523,
-        rank: "153",
-        state: "California"
-    },
-    {
-        city: "Corona",
-        latitude: 33.8752935,
-        longitude: -117.5664384,
-        radius: 159503,
-        rank: "154",
-        state: "California"
-    },
-    {
-        city: "Eugene",
-        latitude: 44.0520691,
-        longitude: -123.0867536,
-        radius: 159190,
-        rank: "155",
-        state: "Oregon"
-    },
-    {
-        city: "Palmdale",
-        latitude: 34.5794343,
-        longitude: -118.1164613,
-        radius: 157161,
-        rank: "156",
-        state: "California"
-    },
-    {
-        city: "Salinas",
-        latitude: 36.6777372,
-        longitude: -121.6555013,
-        radius: 155662,
-        rank: "157",
-        state: "California"
-    },
-    {
-        city: "Springfield",
-        latitude: 42.1014831,
-        longitude: -72.589811,
-        radius: 153703,
-        rank: "158",
-        state: "Massachusetts"
-    },
-    {
-        city: "Pasadena",
-        latitude: 29.6910625,
-        longitude: -95.2091006,
-        radius: 152735,
-        rank: "159",
-        state: "Texas"
-    },
-    {
-        city: "Fort Collins",
-        latitude: 40.5852602,
-        longitude: -105.084423,
-        radius: 152061,
-        rank: "160",
-        state: "Colorado"
-    },
-    {
-        city: "Hayward",
-        latitude: 37.6688205,
-        longitude: -122.0807964,
-        radius: 151574,
-        rank: "161",
-        state: "California"
-    },
-    {
-        city: "Pomona",
-        latitude: 34.055103,
-        longitude: -117.7499909,
-        radius: 151348,
-        rank: "162",
-        state: "California"
-    },
-    {
-        city: "Cary",
-        latitude: 35.79154,
-        longitude: -78.7811169,
-        radius: 151088,
-        rank: "163",
-        state: "North Carolina"
-    },
-    {
-        city: "Rockford",
-        latitude: 42.2711311,
-        longitude: -89.0939952,
-        radius: 150251,
-        rank: "164",
-        state: "Illinois"
-    },
-    {
-        city: "Alexandria",
-        latitude: 38.8048355,
-        longitude: -77.0469214,
-        radius: 148892,
-        rank: "165",
-        state: "Virginia"
-    },
-    {
-        city: "Escondido",
-        latitude: 33.1192068,
-        longitude: -117.086421,
-        radius: 148738,
-        rank: "166",
-        state: "California"
-    },
-    {
-        city: "McKinney",
-        latitude: 33.1972465,
-        longitude: -96.6397822,
-        radius: 148559,
-        rank: "167",
-        state: "Texas"
-    },
-    {
-        city: "Kansas City",
-        latitude: 39.114053,
-        longitude: -94.6274636,
-        radius: 148483,
-        rank: "168",
-        state: "Kansas"
-    },
-    {
-        city: "Joliet",
-        latitude: 41.525031,
-        longitude: -88.0817251,
-        radius: 147806,
-        rank: "169",
-        state: "Illinois"
-    },
-    {
-        city: "Sunnyvale",
-        latitude: 37.36883,
-        longitude: -122.0363496,
-        radius: 147559,
-        rank: "170",
-        state: "California"
-    },
-    {
-        city: "Torrance",
-        latitude: 33.8358492,
-        longitude: -118.3406288,
-        radius: 147478,
-        rank: "171",
-        state: "California"
-    },
-    {
-        city: "Bridgeport",
-        latitude: 41.1865478,
-        longitude: -73.19517669999999,
-        radius: 147216,
-        rank: "172",
-        state: "Connecticut"
-    },
-    {
-        city: "Lakewood",
-        latitude: 39.7047095,
-        longitude: -105.0813734,
-        radius: 147214,
-        rank: "173",
-        state: "Colorado"
-    },
-    {
-        city: "Hollywood",
-        latitude: 26.0112014,
-        longitude: -80.1494901,
-        radius: 146526,
-        rank: "174",
-        state: "Florida"
-    },
-    {
-        city: "Paterson",
-        latitude: 40.9167654,
-        longitude: -74.17181099999999,
-        radius: 145948,
-        rank: "175",
-        state: "New Jersey"
-    },
-    {
-        city: "Naperville",
-        latitude: 41.7508391,
-        longitude: -88.1535352,
-        radius: 144864,
-        rank: "176",
-        state: "Illinois"
-    },
-    {
-        city: "Syracuse",
-        latitude: 43.0481221,
-        longitude: -76.14742439999999,
-        radius: 144669,
-        rank: "177",
-        state: "New York"
-    },
-    {
-        city: "Mesquite",
-        latitude: 32.76679550000001,
-        longitude: -96.5991593,
-        radius: 143484,
-        rank: "178",
-        state: "Texas"
-    },
-    {
-        city: "Dayton",
-        latitude: 39.7589478,
-        longitude: -84.1916069,
-        radius: 143355,
-        rank: "179",
-        state: "Ohio"
-    },
-    {
-        city: "Savannah",
-        latitude: 32.0835407,
-        longitude: -81.09983419999999,
-        radius: 142772,
-        rank: "180",
-        state: "Georgia"
-    },
-    {
-        city: "Clarksville",
-        latitude: 36.5297706,
-        longitude: -87.3594528,
-        radius: 142357,
-        rank: "181",
-        state: "Tennessee"
-    },
-    {
-        city: "Orange",
-        latitude: 33.7877944,
-        longitude: -117.8531119,
-        radius: 139969,
-        rank: "182",
-        state: "California"
-    },
-    {
-        city: "Pasadena",
-        latitude: 34.1477849,
-        longitude: -118.1445155,
-        radius: 139731,
-        rank: "183",
-        state: "California"
-    },
-    {
-        city: "Fullerton",
-        latitude: 33.8703596,
-        longitude: -117.9242966,
-        radius: 138981,
-        rank: "184",
-        state: "California"
-    },
-    {
-        city: "Killeen",
-        latitude: 31.1171194,
-        longitude: -97.72779589999999,
-        radius: 137147,
-        rank: "185",
-        state: "Texas"
-    },
-    {
-        city: "Frisco",
-        latitude: 33.1506744,
-        longitude: -96.82361159999999,
-        radius: 136791,
-        rank: "186",
-        state: "Texas"
-    },
-    {
-        city: "Hampton",
-        latitude: 37.0298687,
-        longitude: -76.34522179999999,
-        radius: 136699,
-        rank: "187",
-        state: "Virginia"
-    },
-    {
-        city: "McAllen",
-        latitude: 26.2034071,
-        longitude: -98.23001239999999,
-        radius: 136639,
-        rank: "188",
-        state: "Texas"
-    },
-    {
-        city: "Warren",
-        latitude: 42.5144566,
-        longitude: -83.01465259999999,
-        radius: 134873,
-        rank: "189",
-        state: "Michigan"
-    },
-    {
-        city: "Bellevue",
-        latitude: 47.610377,
-        longitude: -122.2006786,
-        radius: 133992,
-        rank: "190",
-        state: "Washington"
-    },
-    {
-        city: "West Valley City",
-        latitude: 40.6916132,
-        longitude: -112.0010501,
-        radius: 133579,
-        rank: "191",
-        state: "Utah"
-    },
-    {
-        city: "Columbia",
-        latitude: 34.0007104,
-        longitude: -81.0348144,
-        radius: 133358,
-        rank: "192",
-        state: "South Carolina"
-    },
-    {
-        city: "Olathe",
-        latitude: 38.8813958,
-        longitude: -94.81912849999999,
-        radius: 131885,
-        rank: "193",
-        state: "Kansas"
-    },
-    {
-        city: "Sterling Heights",
-        latitude: 42.5803122,
-        longitude: -83.0302033,
-        radius: 131224,
-        rank: "194",
-        state: "Michigan"
-    },
-    {
-        city: "New Haven",
-        latitude: 41.308274,
-        longitude: -72.9278835,
-        radius: 130660,
-        rank: "195",
-        state: "Connecticut"
-    },
-    {
-        city: "Miramar",
-        latitude: 25.9860762,
-        longitude: -80.30356019999999,
-        radius: 130288,
-        rank: "196",
-        state: "Florida"
-    },
-    {
-        city: "Waco",
-        latitude: 31.549333,
-        longitude: -97.1466695,
-        radius: 129030,
-        rank: "197",
-        state: "Texas"
-    },
-    {
-        city: "Thousand Oaks",
-        latitude: 34.1705609,
-        longitude: -118.8375937,
-        radius: 128731,
-        rank: "198",
-        state: "California"
-    },
-    {
-        city: "Cedar Rapids",
-        latitude: 41.9778795,
-        longitude: -91.6656232,
-        radius: 128429,
-        rank: "199",
-        state: "Iowa"
-    },
-    {
-        city: "Charleston",
-        latitude: 32.7764749,
-        longitude: -79.93105120000001,
-        radius: 127999,
-        rank: "200",
-        state: "South Carolina"
-    },
-    {
-        city: "Visalia",
-        latitude: 36.3302284,
-        longitude: -119.2920585,
-        radius: 127763,
-        rank: "201",
-        state: "California"
-    },
-    {
-        city: "Topeka",
-        latitude: 39.0558235,
-        longitude: -95.68901849999999,
-        radius: 127679,
-        rank: "202",
-        state: "Kansas"
-    },
-    {
-        city: "Elizabeth",
-        latitude: 40.6639916,
-        longitude: -74.2107006,
-        radius: 127558,
-        rank: "203",
-        state: "New Jersey"
-    },
-    {
-        city: "Gainesville",
-        latitude: 29.6516344,
-        longitude: -82.32482619999999,
-        radius: 127488,
-        rank: "204",
-        state: "Florida"
-    },
-    {
-        city: "Thornton",
-        latitude: 39.8680412,
-        longitude: -104.9719243,
-        radius: 127359,
-        rank: "205",
-        state: "Colorado"
-    },
-    {
-        city: "Roseville",
-        latitude: 38.7521235,
-        longitude: -121.2880059,
-        radius: 127035,
-        rank: "206",
-        state: "California"
-    },
-    {
-        city: "Carrollton",
-        latitude: 32.9756415,
-        longitude: -96.8899636,
-        radius: 126700,
-        rank: "207",
-        state: "Texas"
-    },
-    {
-        city: "Coral Springs",
-        latitude: 26.271192,
-        longitude: -80.2706044,
-        radius: 126604,
-        rank: "208",
-        state: "Florida"
-    },
-    {
-        city: "Stamford",
-        latitude: 41.0534302,
-        longitude: -73.5387341,
-        radius: 126456,
-        rank: "209",
-        state: "Connecticut"
-    },
-    {
-        city: "Simi Valley",
-        latitude: 34.2694474,
-        longitude: -118.781482,
-        radius: 126181,
-        rank: "210",
-        state: "California"
-    },
-    {
-        city: "Concord",
-        latitude: 37.9779776,
-        longitude: -122.0310733,
-        radius: 125880,
-        rank: "211",
-        state: "California"
-    },
-    {
-        city: "Hartford",
-        latitude: 41.76371109999999,
-        longitude: -72.6850932,
-        radius: 125017,
-        rank: "212",
-        state: "Connecticut"
-    },
-    {
-        city: "Kent",
-        latitude: 47.3809335,
-        longitude: -122.2348431,
-        radius: 124435,
-        rank: "213",
-        state: "Washington"
-    },
-    {
-        city: "Lafayette",
-        latitude: 30.2240897,
-        longitude: -92.0198427,
-        radius: 124276,
-        rank: "214",
-        state: "Louisiana"
-    },
-    {
-        city: "Midland",
-        latitude: 31.9973456,
-        longitude: -102.0779146,
-        radius: 123933,
-        rank: "215",
-        state: "Texas"
-    },
-    {
-        city: "Surprise",
-        latitude: 33.6292337,
-        longitude: -112.3679279,
-        radius: 123546,
-        rank: "216",
-        state: "Arizona"
-    },
-    {
-        city: "Denton",
-        latitude: 33.2148412,
-        longitude: -97.13306829999999,
-        radius: 123099,
-        rank: "217",
-        state: "Texas"
-    },
-    {
-        city: "Victorville",
-        latitude: 34.5362184,
-        longitude: -117.2927641,
-        radius: 121096,
-        rank: "218",
-        state: "California"
-    },
-    {
-        city: "Evansville",
-        latitude: 37.9715592,
-        longitude: -87.5710898,
-        radius: 120310,
-        rank: "219",
-        state: "Indiana"
-    },
-    {
-        city: "Santa Clara",
-        latitude: 37.3541079,
-        longitude: -121.9552356,
-        radius: 120245,
-        rank: "220",
-        state: "California"
-    },
-    {
-        city: "Abilene",
-        latitude: 32.4487364,
-        longitude: -99.73314390000002,
-        radius: 120099,
-        rank: "221",
-        state: "Texas"
-    },
-    {
-        city: "Athens-Clarke County",
-        latitude: 33.9519347,
-        longitude: -83.357567,
-        radius: 119980,
-        rank: "222",
-        state: "Georgia"
-    },
-    {
-        city: "Vallejo",
-        latitude: 38.1040864,
-        longitude: -122.2566367,
-        radius: 118837,
-        rank: "223",
-        state: "California"
-    },
-    {
-        city: "Allentown",
-        latitude: 40.6084305,
-        longitude: -75.4901833,
-        radius: 118577,
-        rank: "224",
-        state: "Pennsylvania"
-    },
-    {
-        city: "Norman",
-        latitude: 35.2225668,
-        longitude: -97.4394777,
-        radius: 118197,
-        rank: "225",
-        state: "Oklahoma"
-    },
-    {
-        city: "Beaumont",
-        latitude: 30.080174,
-        longitude: -94.1265562,
-        radius: 117796,
-        rank: "226",
-        state: "Texas"
-    },
-    {
-        city: "Independence",
-        latitude: 39.0911161,
-        longitude: -94.41550679999999,
-        radius: 117240,
-        rank: "227",
-        state: "Missouri"
-    },
-    {
-        city: "Murfreesboro",
-        latitude: 35.8456213,
-        longitude: -86.39027,
-        radius: 117044,
-        rank: "228",
-        state: "Tennessee"
-    },
-    {
-        city: "Ann Arbor",
-        latitude: 42.2808256,
-        longitude: -83.7430378,
-        radius: 117025,
-        rank: "229",
-        state: "Michigan"
-    },
-    {
-        city: "Springfield",
-        latitude: 39.78172130000001,
-        longitude: -89.6501481,
-        radius: 117006,
-        rank: "230",
-        state: "Illinois"
-    },
-    {
-        city: "Berkeley",
-        latitude: 37.8715926,
-        longitude: -122.272747,
-        radius: 116768,
-        rank: "231",
-        state: "California"
-    },
-    {
-        city: "Peoria",
-        latitude: 40.6936488,
-        longitude: -89.5889864,
-        radius: 116513,
-        rank: "232",
-        state: "Illinois"
-    },
-    {
-        city: "Provo",
-        latitude: 40.2338438,
-        longitude: -111.6585337,
-        radius: 116288,
-        rank: "233",
-        state: "Utah"
-    },
-    {
-        city: "El Monte",
-        latitude: 34.0686206,
-        longitude: -118.0275667,
-        radius: 115708,
-        rank: "234",
-        state: "California"
-    },
-    {
-        city: "Columbia",
-        latitude: 38.9517053,
-        longitude: -92.3340724,
-        radius: 115276,
-        rank: "235",
-        state: "Missouri"
-    },
-    {
-        city: "Lansing",
-        latitude: 42.732535,
-        longitude: -84.5555347,
-        radius: 113972,
-        rank: "236",
-        state: "Michigan"
-    },
-    {
-        city: "Fargo",
-        latitude: 46.8771863,
-        longitude: -96.7898034,
-        radius: 113658,
-        rank: "237",
-        state: "North Dakota"
-    },
-    {
-        city: "Downey",
-        latitude: 33.9401088,
-        longitude: -118.1331593,
-        radius: 113242,
-        rank: "238",
-        state: "California"
-    },
-    {
-        city: "Costa Mesa",
-        latitude: 33.6411316,
-        longitude: -117.9186689,
-        radius: 112174,
-        rank: "239",
-        state: "California"
-    },
-    {
-        city: "Wilmington",
-        latitude: 34.2257255,
-        longitude: -77.9447102,
-        radius: 112067,
-        rank: "240",
-        state: "North Carolina"
-    },
-    {
-        city: "Arvada",
-        latitude: 39.8027644,
-        longitude: -105.0874842,
-        radius: 111707,
-        rank: "241",
-        state: "Colorado"
-    },
-    {
-        city: "Inglewood",
-        latitude: 33.9616801,
-        longitude: -118.3531311,
-        radius: 111542,
-        rank: "242",
-        state: "California"
-    },
-    {
-        city: "Miami Gardens",
-        latitude: 25.9420377,
-        longitude: -80.2456045,
-        radius: 111378,
-        rank: "243",
-        state: "Florida"
-    },
-    {
-        city: "Carlsbad",
-        latitude: 33.1580933,
-        longitude: -117.3505939,
-        radius: 110972,
-        rank: "244",
-        state: "California"
-    },
-    {
-        city: "Westminster",
-        latitude: 39.8366528,
-        longitude: -105.0372046,
-        radius: 110945,
-        rank: "245",
-        state: "Colorado"
-    },
-    {
-        city: "Rochester",
-        latitude: 44.0121221,
-        longitude: -92.4801989,
-        radius: 110742,
-        rank: "246",
-        state: "Minnesota"
-    },
-    {
-        city: "Odessa",
-        latitude: 31.8456816,
-        longitude: -102.3676431,
-        radius: 110720,
-        rank: "247",
-        state: "Texas"
-    },
-    {
-        city: "Manchester",
-        latitude: 42.9956397,
-        longitude: -71.4547891,
-        radius: 110378,
-        rank: "248",
-        state: "New Hampshire"
-    },
-    {
-        city: "Elgin",
-        latitude: 42.0354084,
-        longitude: -88.2825668,
-        radius: 110145,
-        rank: "249",
-        state: "Illinois"
-    },
-    {
-        city: "West Jordan",
-        latitude: 40.6096698,
-        longitude: -111.9391031,
-        radius: 110077,
-        rank: "250",
-        state: "Utah"
     }
 ]
