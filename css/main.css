@@ -303,6 +303,7 @@ textarea {
      flex-direction: column;
      align-items: center;
      justify-content: center;
+     padding-top: 30px;
    }
 
    .hex {
@@ -316,7 +317,7 @@ textarea {
 
    .header {
      font-family: 'Poppins', sans-serif;
-     font-weight: 600;
+     font-weight: 500;
      font-size: 100px;
      background: rgb(90,228,216);
      background: linear-gradient(68deg, rgba(90,228,216,1) 1%, rgba(255,176,132,1) 99%);

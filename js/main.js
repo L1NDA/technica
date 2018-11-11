@@ -28,66 +28,66 @@ var oklahomacitysolid;
 var louisvillesolid;
 var portlandsolid;
 var lasvegassolid;
-// var milwaukeesolid;
-// var albuquerquesolid;
-// var tucsonsolid;
-// var fresnosolid;
-// var sacramentosolid;
-// var longbeachsolid;
-// var kansascitysolid;
-// var mesasolid;
-// var virginiabeachsolid;
-// var atlantasolid;
-// var coloradospringssolid;
-// var omahasolid;
-// var raleighsolid;
-// var miamisolid;
-// var minneapolissolid;
-// var tulsasolid;
-// var clevelandsolid;
-// var wichitasolid;
-// var neworleanssolid;
-// var bakersfieldsolid;
-// var tampasolid;
-// var honolulusolid;
-// var stlouissolid;
-// var riversidesolid;
-// var corpuschristisolid;
-// var lexingtonfayettesolid;
-// var pittsburghsolid;
-// var anchoragesolid;
-// var cincinnatisolid;
-// var stpaulsolid;
-// var toledosolid;
-// var greensborosolid;
-// var newarksolid;
-// var lincolnsolid;
-// var buffalosolid;
-// var fortwaynesolid;
-// var orlandosolid;
-// var laredosolid;
-// var madisonsolid;
-// var lubbocksolid;
-// var renosolid;
-// var batonrougesolid;
-// var boisecitysolid;
-// var richmondsolid;
-// var birminghamsolid;
-// var spokanesolid;
-// var rochestersolid;
-// var desmoinessolid;
-// var tacomasolid;
-// var montgomerysolid;
-// var shreveportsolid;
-// var aurorasolid;
-// var littlerocksolid;
-// var augustasolid;
-// var amarillosolid;
-// var mobilesolid;
-// var grandrapidssolid;
-// var saltlakecitysolid;
-// var tallahasseesolid;
-// var huntsvillesolid;
+var milwaukeesolid;
+var albuquerquesolid;
+var tucsonsolid;
+var fresnosolid;
+var sacramentosolid;
+var longbeachsolid;
+var kansascitysolid;
+var mesasolid;
+var virginiabeachsolid;
+var atlantasolid;
+var coloradospringssolid;
+var omahasolid;
+var raleighsolid;
+var miamisolid;
+var minneapolissolid;
+var tulsasolid;
+var clevelandsolid;
+var wichitasolid;
+var neworleanssolid;
+var bakersfieldsolid;
+var tampasolid;
+var honolulusolid;
+var stlouissolid;
+var riversidesolid;
+var corpuschristisolid;
+var lexingtonfayettesolid;
+var pittsburghsolid;
+var anchoragesolid;
+var cincinnatisolid;
+var stpaulsolid;
+var toledosolid;
+var greensborosolid;
+var newarksolid;
+var lincolnsolid;
+var buffalosolid;
+var fortwaynesolid;
+var orlandosolid;
+var laredosolid;
+var madisonsolid;
+var lubbocksolid;
+var renosolid;
+var batonrougesolid;
+var boisecitysolid;
+var richmondsolid;
+var birminghamsolid;
+var spokanesolid;
+var rochestersolid;
+var desmoinessolid;
+var tacomasolid;
+var montgomerysolid;
+var shreveportsolid;
+var aurorasolid;
+var littlerocksolid;
+var augustasolid;
+var amarillosolid;
+var mobilesolid;
+var grandrapidssolid;
+var saltlakecitysolid;
+var tallahasseesolid;
+var huntsvillesolid;
 
 function createMap() {
   console.log("create map");
@@ -160,66 +160,66 @@ function createMap() {
                   louisville: 'url(#louisville)',
                   portland: 'url(#portland)',
                   lasvegas: 'url(#lasvegas)',
-                  // milwaukee: 'url(#milwaukee)',
-                  // albuquerque: 'url(#albuquerque)',
-                  // tucson: 'url(#tucson)',
-                  // fresno: 'url(#fresno)',
-                  // sacramento: 'url(#sacramento)',
-                  // longbeach: 'url(#longbeach)',
-                  // kansascity: 'url(#kansascity)',
-                  // mesa: 'url(#mesa)',
-                  // virginiabeach: 'url(#virginiabeach)',
-                  // atlanta: 'url(#atlanta)',
-                  // coloradosprings: 'url(#coloradosprings)',
-                  // omaha: 'url(#omaha)',
-                  // raleigh: 'url(#raleigh)',
-                  // miami: 'url(#miami)',
-                  // minneapolis: 'url(#minneapolis)',
-                  // tulsa: 'url(#tulsa)',
-                  // cleveland: 'url(#cleveland)',
-                  // wichita:'url(#wichita)',
-                  // neworleans: 'url(#neworleans)',
-                  // bakersfield: 'url(#bakersfield)',
-                  // tampa: 'url(#tampa)',
-                  // honolulu: 'url(#honolulu)',
-                  // stlouis: 'url(#stlouis)',
-                  // riverside: 'url(#riverside)',
-                  // corpuschristi: 'url(#corpuschristi)',
-                  // lexingtonfayette: 'url(#lexingtonfayette)',
-                  // pittsburgh: 'url(#pittsburgh)',
-                  // anchorage: 'url(#anchorage)',
-                  // cincinnati: 'url(#cincinnati)',
-                  // stpaul: 'url(#stpaul)',
-                  // toledo: 'url(#toledo)',
-                  // greensboro: 'url(#greensboro)',
-                  // newark: 'url(#newark)',
-                  // lincoln: 'url(#lincoln)',
-                  // buffalo: 'url(#buffalo)',
-                  // fortwayne: 'url(#fortwayne)',
-                  // orlando: 'url(#orlando)',
-                  // laredo: 'url(#laredo)',
-                  // madison: 'url(#madison)',
-                  // lubbock: 'url(#lubbock)',
-                  // reno: 'url(#reno)',
-                  // batonrouge: 'url(#batonrouge)',
-                  // boisecity: 'url(#boisecity)',
-                  // richmond: 'url(#richmond)',
-                  // birmingham: 'url(#birmingham)',
-                  // spokane: 'url(#spokane)',
-                  // rochester: 'url(#rochester)',
-                  // desmoines: 'url(#desmoines)',
-                  // tacoma: 'url(#tacoma)',
-                  // montgomery: 'url(#montgomery)',
-                  // shreveport: 'url(#shreveport)',
-                  // aurora: 'url(#aurora)',
-                  // littlerock: 'url(#littlerock)',
-                  // augusta: 'url(#augusta)',
-                  // amarillo: 'url(#amarillo)',
-                  // mobile: 'url(#mobile)',
-                  // grandrapids: 'url(#grandrapids)',
-                  // saltlakecity: 'url(#saltlakecity)',
-                  // tallahassee: 'url(#tallahassee)',
-                  // huntsville: 'url(#huntsville)'
+                  milwaukee: 'url(#milwaukee)',
+                  albuquerque: 'url(#albuquerque)',
+                  tucson: 'url(#tucson)',
+                  fresno: 'url(#fresno)',
+                  sacramento: 'url(#sacramento)',
+                  longbeach: 'url(#longbeach)',
+                  kansascity: 'url(#kansascity)',
+                  mesa: 'url(#mesa)',
+                  virginiabeach: 'url(#virginiabeach)',
+                  atlanta: 'url(#atlanta)',
+                  coloradosprings: 'url(#coloradosprings)',
+                  omaha: 'url(#omaha)',
+                  raleigh: 'url(#raleigh)',
+                  miami: 'url(#miami)',
+                  minneapolis: 'url(#minneapolis)',
+                  tulsa: 'url(#tulsa)',
+                  cleveland: 'url(#cleveland)',
+                  wichita:'url(#wichita)',
+                  neworleans: 'url(#neworleans)',
+                  bakersfield: 'url(#bakersfield)',
+                  tampa: 'url(#tampa)',
+                  honolulu: 'url(#honolulu)',
+                  stlouis: 'url(#stlouis)',
+                  riverside: 'url(#riverside)',
+                  corpuschristi: 'url(#corpuschristi)',
+                  lexingtonfayette: 'url(#lexingtonfayette)',
+                  pittsburgh: 'url(#pittsburgh)',
+                  anchorage: 'url(#anchorage)',
+                  cincinnati: 'url(#cincinnati)',
+                  stpaul: 'url(#stpaul)',
+                  toledo: 'url(#toledo)',
+                  greensboro: 'url(#greensboro)',
+                  newark: 'url(#newark)',
+                  lincoln: 'url(#lincoln)',
+                  buffalo: 'url(#buffalo)',
+                  fortwayne: 'url(#fortwayne)',
+                  orlando: 'url(#orlando)',
+                  laredo: 'url(#laredo)',
+                  madison: 'url(#madison)',
+                  lubbock: 'url(#lubbock)',
+                  reno: 'url(#reno)',
+                  batonrouge: 'url(#batonrouge)',
+                  boisecity: 'url(#boisecity)',
+                  richmond: 'url(#richmond)',
+                  birmingham: 'url(#birmingham)',
+                  spokane: 'url(#spokane)',
+                  rochester: 'url(#rochester)',
+                  desmoines: 'url(#desmoines)',
+                  tacoma: 'url(#tacoma)',
+                  montgomery: 'url(#montgomery)',
+                  shreveport: 'url(#shreveport)',
+                  aurora: 'url(#aurora)',
+                  littlerock: 'url(#littlerock)',
+                  augusta: 'url(#augusta)',
+                  amarillo: 'url(#amarillo)',
+                  mobile: 'url(#mobile)',
+                  grandrapids: 'url(#grandrapids)',
+                  saltlakecity: 'url(#saltlakecity)',
+                  tallahassee: 'url(#tallahassee)',
+                  huntsville: 'url(#huntsville)'
               },
               // gradients: {
               //     defaultFill: '#282828',
@@ -390,62 +390,62 @@ function makeGradient(hex1, hex2, city) {
 imageUrl = []
 
 
-// function app2() {
-//   const app2 = new Clarifai.App({
-//    apiKey: '6570ec56608544d99af0300e3f7ed6b1'
-//   });
-//
-//   app2.models.predict("eeed0b6733a644cea07cf4c60f87ebb7", array2).then(
-//         function(response) {
-//           console.log(response);
-//           for (var c = 0; c < array2.length; c++){
-//             var url = array2[c];
-//             var city = url.substring(url.lastIndexOf("?") + 1);
-//             makeGradient(response.outputs[c].data.colors[0].raw_hex, response.outputs[c].data.colors[1].raw_hex, city);
-//             let tempColor = [];
-//             for (var d = 0; d < response.outputs[c].data.colors.length; d++) {
-//               // console.log(d);
-//               tempColor.push(response.outputs[c].data.colors[d].raw_hex);
-//             };
-//             colors[city] = tempColor;
-//           }
-//           console.log("outside 2");
-//           app3();
-//         },
-//         function(err) {
-//           console.log(image)
-//           console.log(err)
-//         }
-//     );
-// }
-//
-// function app3() {
-//   const app3 = new Clarifai.App({
-//    apiKey: 'c34578ea9d6c4308a91d4e1be6f94ad6'
-//   });
-//
-//   app3.models.predict("eeed0b6733a644cea07cf4c60f87ebb7", array3).then(
-//         function(response) {
-//           console.log(response);
-//           for (var e = 0; e < array3.length; e++){
-//             var url = array3[e];
-//             var city = url.substring(url.lastIndexOf("?") + 1);
-//             makeGradient(response.outputs[e].data.colors[0].raw_hex, response.outputs[e].data.colors[1].raw_hex, city);
-//             let tempColor = [];
-//             for (var f = 0; f < response.outputs[e].data.colors.length; f++) {
-//               tempColor.push(response.outputs[e].data.colors[f].raw_hex);
-//             };
-//             colors[city] = tempColor;
-//           }
-//           console.log("outside 3");
-//           createMap();
-//         },
-//         function(err) {
-//           console.log(image)
-//           console.log(err)
-//         }
-//     );
-// }
+function app2() {
+  const app2 = new Clarifai.App({
+   apiKey: '6570ec56608544d99af0300e3f7ed6b1'
+  });
+
+  app2.models.predict("eeed0b6733a644cea07cf4c60f87ebb7", array2).then(
+        function(response) {
+          console.log(response);
+          for (var c = 0; c < array2.length; c++){
+            var url = array2[c];
+            var city = url.substring(url.lastIndexOf("?") + 1);
+            makeGradient(response.outputs[c].data.colors[0].raw_hex, response.outputs[c].data.colors[1].raw_hex, city);
+            let tempColor = [];
+            for (var d = 0; d < response.outputs[c].data.colors.length; d++) {
+              // console.log(d);
+              tempColor.push(response.outputs[c].data.colors[d].raw_hex);
+            };
+            colors[city] = tempColor;
+          }
+          console.log("outside 2");
+          app3();
+        },
+        function(err) {
+          console.log(image)
+          console.log(err)
+        }
+    );
+}
+
+function app3() {
+  const app3 = new Clarifai.App({
+   apiKey: 'be6eb484b8464f2a902652301c9d6a36'
+  });
+
+  app3.models.predict("eeed0b6733a644cea07cf4c60f87ebb7", array3).then(
+        function(response) {
+          console.log(response);
+          for (var e = 0; e < array3.length; e++){
+            var url = array3[e];
+            var city = url.substring(url.lastIndexOf("?") + 1);
+            makeGradient(response.outputs[e].data.colors[0].raw_hex, response.outputs[e].data.colors[1].raw_hex, city);
+            let tempColor = [];
+            for (var f = 0; f < response.outputs[e].data.colors.length; f++) {
+              tempColor.push(response.outputs[e].data.colors[f].raw_hex);
+            };
+            colors[city] = tempColor;
+          }
+          console.log("outside 3");
+          createMap();
+        },
+        function(err) {
+          console.log(image)
+          console.log(err)
+        }
+    );
+}
 
 for (const [key, value] of Object.entries(cities)) {
   // console.log(key, value);
