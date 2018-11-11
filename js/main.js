@@ -1,10 +1,4 @@
-// var json;
-//
-// $.getJSON("cities.json", function(resp) {
-//     json = resp; // this will show the info it in firebug console
-// });
-
-function makeGradient() {
+function makeGradient(hex1, hex2, city) {
   // lineargradient
   var myLinearGradient = document.createElementNS("http://www.w3.org/2000/svg", "linearGradient");
   myLinearGradient.setAttribute("id", "gradient");
@@ -30,39 +24,6 @@ function makeGradient() {
 
 makeGradient();
 
-var image = {};
-
-function getBase64Image(imgUrl, callback) {
-
-    var img = new Image();
-
-    // onload fires when the image is fully loadded, and has width and height
-
-    img.onload = function(){
-
-      var canvas = document.createElement("canvas");
-      canvas.width = img.width;
-      canvas.height = img.height;
-      var ctx = canvas.getContext("2d");
-      ctx.drawImage(img, 0, 0);
-      var dataURL = canvas.toDataURL("image/png"),
-          dataURL = dataURL.replace(/^data:image\/(png|jpg);base64,/, "");
-
-      callback(dataURL); // the base64 string
-
-    };
-
-    // set attributes and src
-    img.setAttribute('crossOrigin', 'anonymous'); //
-    img.src = imgUrl;
-
-}
-
-getBase64Image("https://source.unsplash.com/assets/photo-1428279148693-1cf2163ed67d-9869bbd99114f8d100a48d67d1b8ec56c4171e661131714f2b570e6dcc0b8bb3.jpg", function(base64image){
-     // console.log(base64image);
-     image["base64"] = base64image;
-});
-
 imageUrl= "https://source.unsplash.com/random/?san,francisco"
 
 // instantiate a new Clarifai app passing in your api key.
@@ -74,7 +35,7 @@ app.models.predict("eeed0b6733a644cea07cf4c60f87ebb7", imageUrl).then(
       function(response) {
         // colors = response.outputs[0].data.colors
         // console.log(colors)
-        getHex(response.outputs[0].data.colors)
+        getHex(response.outputs[0].data.colors[0], response.outputs[0].data.colors[1])
       },
       function(err) {
         console.log(image)
@@ -82,18 +43,18 @@ app.models.predict("eeed0b6733a644cea07cf4c60f87ebb7", imageUrl).then(
       }
     );
 
-function getHex(colors) {
-  boxes = document.querySelectorAll(".hex")
-  console.log(boxes)
-  console.log(colors)
-  boxes.forEach(function(box, index) {
-    if (colors[index]) {
-      box.style.display = "block";
-      box.style.backgroundColor = colors[index].raw_hex
-    }
-  })
-
-}
+// function getHex(colors) {
+//   boxes = document.querySelectorAll(".hex")
+//   console.log(boxes)
+//   console.log(colors)
+//   boxes.forEach(function(box, index) {
+//     if (colors[index]) {
+//       box.style.display = "block";
+//       box.style.backgroundColor = colors[index].raw_hex
+//     }
+//   })
+//
+// }
 
 var bubble_map = new Datamap({
             element: document.getElementById('container'),
@@ -115,7 +76,7 @@ var bubble_map = new Datamap({
                 popupTemplate: function(geography, data) {
                   return `<div class="hoverinfo"> ${data.state} </div>`;
                 },
-                fillOpacity: 0.75,
+                fillOpacity: 1,
                 animate: true,
                 highlightOnHover: true,
                 highlightFillColor: '#000000',
@@ -140,7 +101,7 @@ bubble_map.bubbles([
   {
           city: "New York",
           fillKey: "GRAD",
-          radius: 70,
+          radius: 10,
           growth_from_2000_to_2013: "4.8%",
           latitude: 40.7127837,
           longitude: -74.0059413,
@@ -150,7 +111,7 @@ bubble_map.bubbles([
       },
       {
           city: "Los Angeles",
-          radius: 70,
+          radius: 10,
           growth_from_2000_to_2013: "4.8%",
           latitude: 34.0522342,
           longitude: -118.2436849,
@@ -160,6 +121,7 @@ bubble_map.bubbles([
       },
       {
           city: "Chicago",
+          radius: 10,
           growth_from_2000_to_2013: "-6.1%",
           latitude: 41.8781136,
           longitude: -87.6297982,
@@ -169,6 +131,7 @@ bubble_map.bubbles([
       },
       {
           city: "Houston",
+          radius: 10,
           growth_from_2000_to_2013: "11.0%",
           latitude: 29.7604267,
           longitude: -95.3698028,
@@ -178,6 +141,7 @@ bubble_map.bubbles([
       },
       {
           city: "Philadelphia",
+          radius: 10,
           growth_from_2000_to_2013: "2.6%",
           latitude: 39.9525839,
           longitude: -75.1652215,
@@ -187,6 +151,7 @@ bubble_map.bubbles([
       },
       {
           city: "Phoenix",
+          radius: 10,
           growth_from_2000_to_2013: "14.0%",
           latitude: 33.4483771,
           longitude: -112.0740373,

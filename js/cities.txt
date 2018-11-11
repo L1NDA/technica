@@ -1,4 +1,4 @@
-[
+let cities = [
     {
         city: "New York",
         latitude: 40.7127837,
