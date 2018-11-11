@@ -1,6 +1,6 @@
 # Chro·map·tic
 
-Chromaptic is a visualization of the colors representing cities in the United States. The program parses photos from different cities posted to [Unsplash](https://unsplash.com/) into the Clarifai API, to return the dominant color of the photos, which are then visualized on a map. Users are then able to hover their mouse over the map markers to get the name of the city, and preview one of the photos that was used to determine that city's color.
+Chromaptic is a visualization of the colors representing cities in the United States. The program parses photos from different cities posted to [Unsplash](https://unsplash.com/) into the Clarifai API, to return the dominant color of the photos, which are then visualized on a map. Users are then able to hover their mouse over the map markers to get the name of the city, the color palette, and preview one of the photos that was used to determine that city's color.
 
 The motivation behind this hack was to determine if there exists a color that best represents a city. Is Los Angeles more blue? Is Phoenix more orange? By building this program, we were able to see that in fact, this is true! 
 
