@@ -88,6 +88,8 @@ var grandrapidssolid;
 var saltlakecitysolid;
 var tallahasseesolid;
 var huntsvillesolid;
+var billings;
+var acadiasolid;
 
 function createMap() {
   console.log("create map");
@@ -219,7 +221,9 @@ function createMap() {
                   grandrapids: 'url(#grandrapids)',
                   saltlakecity: 'url(#saltlakecity)',
                   tallahassee: 'url(#tallahassee)',
-                  huntsville: 'url(#huntsville)'
+                  huntsville: 'url(#huntsville)',
+                  billings: 'url(#billings)',
+                  acadia: 'url(#acadia)'
               },
               // gradients: {
               //     defaultFill: '#282828',

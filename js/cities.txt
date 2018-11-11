@@ -36,7 +36,7 @@ let cities =
         gradientKey: "houstonsolid",
         latitude: 29.7604267,
         longitude: -95.36980216,
-        radius: 20,
+        radius: 18,
         rank: "4",
         state: "Texas",
     },
@@ -46,7 +46,7 @@ let cities =
         gradientKey: "philadelphiasolid",
         latitude: 39.9525839,
         longitude: -75.1652215,
-        radius: 16,
+        radius: 18,
         rank: "5",
         state: "Pennsylvania",
     },
@@ -56,7 +56,7 @@ let cities =
         gradientKey: "phoenixsolid",
         latitude: 33.4483771,
         longitude: -112.0740373,
-        radius: 15,
+        radius: 18,
         rank: "6",
         state: "Arizona",
     },
@@ -66,7 +66,7 @@ let cities =
         gradientKey: "sanantoniosolid",
         latitude: 29.4241219,
         longitude: -98.49362819999999,
-        radius: 15,
+        radius: 18,
         rank: "7",
     },
     {
@@ -75,7 +75,7 @@ let cities =
         gradientKey: "sandiegosolid",
         latitude: 32.7157316,
         longitude: -117.16108316,
-        radius: 15,
+        radius: 18,
         rank: "8",
     },
     {
@@ -84,17 +84,8 @@ let cities =
         gradientKey: "dallassolid",
         latitude: 32.7766642,
         longitude: -96.79698789999999,
-        radius: 15,
+        radius: 18,
         rank: "9",
-    },
-    {
-        city: "San Jose",
-        fillKey: "sanjose",
-        gradientKey: "sanjosesolid",
-        latitude: 37.3382082,
-        longitude: -121.88632812,
-        radius: 12,
-        rank: "10",
     },
     {
         city: "Austin",
@@ -102,7 +93,7 @@ let cities =
         gradientKey: "austinsolid",
         latitude: 30.267153,
         longitude: -97.74306016,
-        radius: 12,
+        radius: 18,
         rank: "11",
     },
     {
@@ -111,7 +102,7 @@ let cities =
         gradientKey: "indianapolissolid",
         latitude: 39.768403,
         longitude: -86.1580616,
-        radius: 12,
+        radius: 18,
         rank: "12",
     },
     {
@@ -120,7 +111,7 @@ let cities =
         gradientKey: "jacksonvillesolid",
         latitude: 30.33218316,
         longitude: -81.65565099999999,
-        radius: 12,
+        radius: 18,
         rank: "13",
         state: "Florida"
     },
@@ -130,7 +121,7 @@ let cities =
         gradientKey: "sanfranciscosolid",
         latitude: 37.7749295,
         longitude: -122.4194155,
-        radius: 12,
+        radius: 18,
         rank: "14",
         state: "California"
     },
@@ -140,7 +131,7 @@ let cities =
         gradientKey: "columbussolid",
         latitude: 39.9611755,
         longitude: -82.99879419999999,
-        radius: 12,
+        radius: 16,
         rank: "15",
         state: "Ohio"
     },
@@ -150,19 +141,9 @@ let cities =
         gradientKey: "charlottesolid",
         latitude: 35.2270869,
         longitude: -80.8431267,
-        radius: 12,
+        radius: 16,
         rank: "16",
         state: "North Carolina"
-    },
-    {
-        city: "Fort Worth",
-        fillKey: "fortworth",
-        gradientKey: "fortworthsolid",
-        latitude: 32.7554883,
-        longitude: -97.33076516,
-        radius: 12,
-        rank: "17",
-        state: "Texas"
     },
     {
         city: "Detroit",
@@ -170,7 +151,7 @@ let cities =
         gradientKey: "detroitsolid",
         latitude: 42.331427,
         longitude: -83.04575316,
-        radius: 12,
+        radius: 16,
         rank: "18",
         state: "Michigan"
     },
@@ -180,7 +161,7 @@ let cities =
         gradientKey: "elpasosolid",
         latitude: 31.7775757,
         longitude: -106.4424559,
-        radius: 12,
+        radius: 16,
         rank: "19",
         state: "Texas"
     },
@@ -215,7 +196,7 @@ let cities =
         state: "Colorado"
     },
     {
-        city: "Washington",
+        city: "Washington DC",
         fillKey: "washington",
         gradientKey: "washingtonsolid",
         latitude: 38.9071923,
@@ -245,16 +226,6 @@ let cities =
         state: "Tennessee"
     },
     {
-        city: "Baltimore",
-        fillKey: "baltimore",
-        gradientKey: "baltimoresolid",
-        latitude: 39.29038416,
-        longitude: -76.6121893,
-        radius: 16,
-        rank:"26",
-        state: "Maryland"
-    },
-    {
         city: "Oklahoma City",
         fillKey: "oklahomacity",
         gradientKey: "oklahomacitysolid",
@@ -263,16 +234,6 @@ let cities =
         radius: 16,
         rank:"27",
         state: "Oklahoma"
-    },
-    {
-        city: "Louisville/Jefferson County",
-        fillKey: "louisville",
-        gradientKey: "louisvillesolid",
-        latitude: 38.2526647,
-        longitude: -85.7584557,
-        radius: 16,
-        rank:"28",
-        state: "Kentucky"
     },
     {
         city: "Portland",
@@ -325,16 +286,6 @@ let cities =
         state: "Arizona"
     },
     {
-        city: "Fresno",
-        fillKey: "fresno",
-        gradientKey: "fresnosolid",
-        latitude: 36.7468422,
-        longitude: -119.77258616,
-        radius: 16,
-        rank:"34",
-        state: "California"
-    },
-    {
         city: "Sacramento",
         fillKey: "sacramento",
         gradientKey: "sacramentosolid",
@@ -342,16 +293,6 @@ let cities =
         longitude: -121.49439912,
         radius: 16,
         rank:"35",
-        state: "California"
-    },
-    {
-        city: "Long Beach",
-        fillKey: "longbeach",
-        gradientKey: "longbeachsolid",
-        latitude: 33.7700504,
-        longitude: -118.1937395,
-        radius: 16,
-        rank:"36",
         state: "California"
     },
     {
@@ -363,16 +304,6 @@ let cities =
         radius: 16,
         rank:"37",
         state: "Missouri"
-    },
-    {
-        city: "Mesa",
-        fillKey: "mesa",
-        gradientKey: "mesasolid",
-        latitude: 33.4151843,
-        longitude: -111.8314724,
-        radius: 16,
-        rank:"38",
-        state: "Arizona"
     },
     {
         city: "Virginia Beach",
@@ -445,26 +376,6 @@ let cities =
         state: "Minnesota"
     },
     {
-        city: "Tulsa",
-        fillKey: "tulsa",
-        gradientKey: "tulsasolid",
-        latitude: 36.15398112,
-        longitude: -95.99277500000001,
-        radius: 16,
-        rank: "47",
-        state: "Oklahoma"
-    },
-    {
-        city: "Cleveland",
-        fillKey: "cleveland",
-        gradientKey: "clevelandsolid",
-        latitude: 41.49932,
-        longitude: -81.6943605,
-        radius: 16,
-        rank: "48",
-        state: "Ohio"
-    },
-    {
         city: "Wichita",
         fillKey: "wichita",
         gradientKey: "wichitasolid",
@@ -483,16 +394,6 @@ let cities =
         radius: 16,
         rank: "51",
         state: "Louisiana"
-    },
-    {
-        city: "Bakersfield",
-        fillKey: "bakersfield",
-        gradientKey: "bakersfieldsolid",
-        latitude: 35.3732921,
-        longitude: -119.0187125,
-        radius: 16,
-        rank: "52",
-        state: "California"
     },
     {
         city: "Tampa",
@@ -525,16 +426,6 @@ let cities =
         state: "Missouri"
     },
     {
-        city: "Riverside",
-        fillKey: "riverside",
-        gradientKey: "riversidesolid",
-        latitude: 33.9533487,
-        longitude: -117.3961564,
-        radius: 16,
-        rank: "59",
-        state: "California"
-    },
-    {
         city: "Corpus Christi",
         fillKey: "corpuschristi",
         gradientKey: "corpuschristisolid",
@@ -565,46 +456,6 @@ let cities =
         state: "Pennsylvania"
     },
     {
-        city: "St. Paul",
-        fillKey: "stpaul",
-        gradientKey: "stpaulsolid",
-        latitude: 44.9537029,
-        longitude: -93.08995716,
-        radius: 12,
-        rank: "66",
-        state: "Minnesota"
-    },
-    {
-        city: "Greensboro",
-        fillKey: "greensboro",
-        gradientKey: "greensborosolid",
-        latitude: 36.0726354,
-        longitude: -79.7919754,
-        radius: 12,
-        rank: "68",
-        state: "North Carolina"
-    },
-    {
-        city: "Newark",
-        fillKey: "newark",
-        gradientKey: "newarksolid",
-        latitude: 40.735657,
-        longitude: -74.1723667,
-        radius: 12,
-        rank: "69",
-        state: "New Jersey"
-    },
-    {
-        city: "Lincoln",
-        fillKey: "lincoln",
-        gradientKey: "lincolnsolid",
-        latitude: 40.8257625,
-        longitude: -96.6851982,
-        radius: 12,
-        rank: "72",
-        state: "Nebraska"
-    },
-    {
         city: "Buffalo",
         fillKey: "buffalo",
         gradientKey: "buffalosolid",
@@ -615,16 +466,6 @@ let cities =
         state: "New York"
     },
     {
-        city: "Fort Wayne",
-        fillKey: "fortwayne",
-        gradientKey: "fortwaynesolid",
-        latitude: 41.079273,
-        longitude: -85.1393513,
-        radius: 12,
-        rank: "76",
-        state: "Indiana"
-    },
-    {
         city: "Orlando",
         fillKey: "orlando",
         gradientKey: "orlandsolid",
@@ -633,16 +474,6 @@ let cities =
         radius: 12,
         rank: "77",
         state: "Florida"
-    },
-    {
-        city: "Laredo",
-        fillKey: "laredo",
-        gradientKey: "laredosolid",
-        latitude: 27.5305671,
-        longitude: -99.48032409999999,
-        radius: 12,
-        rank: "80",
-        state: "Texas"
     },
     {
         city: "Madison",
@@ -705,16 +536,6 @@ let cities =
         state: "Virginia"
     },
     {
-        city: "Birmingham",
-        fillKey: "birmingham",
-        gradientKey: "birminghamsolid",
-        latitude: 33.52066016,
-        longitude: -86.80248999999999,
-        radius: 12,
-        rank: "101",
-        state: "Alabama"
-    },
-    {
         city: "Spokane",
         fillKey: "spokane",
         gradientKey: "spokanesolid",
@@ -725,16 +546,6 @@ let cities =
         state: "Washington"
     },
     {
-        city: "Rochester",
-        fillKey: "rochester",
-        gradientKey: "rochestersolid",
-        latitude: 43.16103,
-        longitude: -77.6109219,
-        radius: 12,
-        rank: "103",
-        state: "New York"
-    },
-    {
         city: "Des Moines",
         fillKey: "desmoines",
         gradientKey: "desmoinessolid",
@@ -743,16 +554,6 @@ let cities =
         radius: 12,
         rank: "104",
         state: "Iowa"
-    },
-    {
-        city: "Tacoma",
-        fillKey: "tacoma",
-        gradientKey: "tacomasolid",
-        latitude: 47.25287616,
-        longitude: -122.44429012,
-        radius: 12,
-        rank: "107",
-        state: "Washington"
     },
     {
         city: "Montgomery",
@@ -815,16 +616,6 @@ let cities =
         state: "Alabama"
     },
     {
-        city: "Grand Rapids",
-        fillKey: "grandrapids",
-        gradientKey: "grandrapidssolid",
-        latitude: 42.9633599,
-        longitude: -85.6680863,
-        radius: 12,
-        rank: "123",
-        state: "Michigan"
-    },
-    {
         city: "Salt Lake City",
         fillKey: "saltlakecity",
         gradientKey: "saltlakecitysolid",
@@ -845,13 +636,23 @@ let cities =
         state: "Florida"
     },
     {
-        city: "Huntsville",
-        fillKey: "huntsville",
-        gradientKey: "huntsvillesolid",
-        latitude: 34.73036816,
-        longitude: -86.5861037,
+        city: "Billings",
+        fillKey: "billings",
+        gradientKey: "billingssolid",
+        latitude: 45.7832856,
+        longitude: -108.5006904,
         radius: 12,
-        rank: "126",
-        state: "Alabama"
+        rank: "256",
+        state: "Montana"
+    },
+    {
+        city: "Acadia",
+        fillKey: "acadia",
+        gradientKey: "acadiasolid",
+        latitude: 43.66147100000001,
+        longitude: -70.2553259,
+        radius: 12,
+        rank: "519",
+        state: "Maine"
     },
 ]
