@@ -39,12 +39,13 @@ fadingBubbles = function(layer, data){
              * was initialized with the "fills" option, then use the color
              * of this fill key for this bubble
              */
-            if (self.options.fills && d.fillKey) {
-
-                if (self.options.fills[d.fillKey]) {
-                    return self.options.fills[d.fillKey];
-                }
-            }
+            // if (self.options.fills && d.fillKey) {
+            //
+            //     if (self.options.fills[d.fillKey]) {
+            //         return self.options.fills[d.fillKey];
+            //     }
+            // }
+            return self.options.fills[d.fillKey];
 
             // no fillKey was specified, so use the default color
             return defaultColor;

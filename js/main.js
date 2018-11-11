@@ -1,21 +1,21 @@
 function makeGradient(hex1, hex2, city) {
   // lineargradient
-  var myLinearGradient = document.createElementNS("http://www.w3.org/2000/svg", "linearGradient");
+  var myLinearGradient = document.createElementNS("http://www.w3.org/2000/svg", "radialGradient");
   myLinearGradient.setAttribute("id", "gradient");
 
   document.getElementById("mydefs").appendChild(myLinearGradient);
 
   //stops
   var stop1 = document.createElementNS("http://www.w3.org/2000/svg", "stop");
-  stop1.setAttribute("offset", "5%");
+  stop1.setAttribute("offset", "45%");
   //stop1.setAttribute("style", "stop-color: White; stop-opacity: 1");
-  stop1.setAttribute("stop-color", "#ab4d2b");
+  stop1.setAttribute("stop-color", "#858b87");
   document.getElementById("gradient").appendChild(stop1);
 
   var stop2 = document.createElementNS("http://www.w3.org/2000/svg", "stop");
   stop2.setAttribute("offset", "95%");
   //stop2.setAttribute("style", "stop-color: #99cd9f; stop-opacity: 1");
-  stop2.setAttribute("stop-color", "#858b87");
+  stop2.setAttribute("stop-color", "#ab4d2b");
   document.getElementById("gradient").appendChild(stop2);
 
   defs = document.getElementById('mydefs');
@@ -34,7 +34,6 @@ const app = new Clarifai.App({
 app.models.predict("eeed0b6733a644cea07cf4c60f87ebb7", imageUrl).then(
       function(response) {
         // colors = response.outputs[0].data.colors
-        console.log(imageUrl);
         getHex(response.outputs[0].data.colors[0], response.outputs[0].data.colors[1], imageUrl)
       },
       function(err) {
@@ -103,15 +102,15 @@ bubble_map.addPlugin('fadingBubbles', fadingBubbles);
 // draw the fading bubbles at staggered intervals
 drawBubbles = function(data) {
 
-  data.forEach(function(datum, index) {
+    data.forEach(function(datum, index) {
 
-      setTimeout(function() {
+        setTimeout(function() {
 
-          bubble_map.fadingBubbles([datum]);
+            bubble_map.fadingBubbles([datum]);
 
-      }, Math.floor(Math.random() * 10000) * 10);
+        }, Math.floor(Math.random() * 10000) * 10);
 
-  });
+    });
 
 }
 
@@ -119,9 +118,9 @@ drawBubbles(cities);
 
 var sleep = 5000;
 
-setInterval(function() {
+var interval = setInterval(function() {
   drawBubbles(cities);
+  console.log(counter, interval);
 }, sleep);
 
-
-// bubble_map.bubbles(cities);
+bubble_map.bubbles(cities);
