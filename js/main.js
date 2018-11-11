@@ -24,7 +24,7 @@ function makeGradient(hex1, hex2, city) {
 
 makeGradient();
 
-imageUrl= "https://source.unsplash.com/random/?san,francisco"
+imageUrl= "https://source.unsplash.com/random/?sanfrancisco"
 
 // instantiate a new Clarifai app passing in your api key.
 const app = new Clarifai.App({
@@ -34,8 +34,8 @@ const app = new Clarifai.App({
 app.models.predict("eeed0b6733a644cea07cf4c60f87ebb7", imageUrl).then(
       function(response) {
         // colors = response.outputs[0].data.colors
-        // console.log(colors)
-        getHex(response.outputs[0].data.colors[0], response.outputs[0].data.colors[1])
+        console.log(imageUrl);
+        getHex(response.outputs[0].data.colors[0], response.outputs[0].data.colors[1], imageUrl)
       },
       function(err) {
         console.log(image)
@@ -97,66 +97,4 @@ var bubble_map = new Datamap({
             }
         });
 
-bubble_map.bubbles([
-  {
-          city: "New York",
-          fillKey: "GRAD",
-          radius: 10,
-          growth_from_2000_to_2013: "4.8%",
-          latitude: 40.7127837,
-          longitude: -74.0059413,
-          population: "8405837",
-          rank: "1",
-          state: "New York"
-      },
-      {
-          city: "Los Angeles",
-          radius: 10,
-          growth_from_2000_to_2013: "4.8%",
-          latitude: 34.0522342,
-          longitude: -118.2436849,
-          population: "3884307",
-          rank: "2",
-          state: "California"
-      },
-      {
-          city: "Chicago",
-          radius: 10,
-          growth_from_2000_to_2013: "-6.1%",
-          latitude: 41.8781136,
-          longitude: -87.6297982,
-          population: "2718782",
-          rank: "3",
-          state: "Illinois"
-      },
-      {
-          city: "Houston",
-          radius: 10,
-          growth_from_2000_to_2013: "11.0%",
-          latitude: 29.7604267,
-          longitude: -95.3698028,
-          population: "2195914",
-          rank: "4",
-          state: "Texas"
-      },
-      {
-          city: "Philadelphia",
-          radius: 10,
-          growth_from_2000_to_2013: "2.6%",
-          latitude: 39.9525839,
-          longitude: -75.1652215,
-          population: "1553165",
-          rank: "5",
-          state: "Pennsylvania"
-      },
-      {
-          city: "Phoenix",
-          radius: 10,
-          growth_from_2000_to_2013: "14.0%",
-          latitude: 33.4483771,
-          longitude: -112.0740373,
-          population: "1513367",
-          rank: "6",
-          state: "Arizona"
-      },
-]);
+bubble_map.bubbles(cities);
