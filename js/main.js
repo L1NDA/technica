@@ -109,7 +109,11 @@ function createMap() {
                   popupOnHover: true,
                   radius: 4,
                   popupTemplate: function(geography, data) {
-                    return `<div class="hoverinfo"> ${data.city} </div>`;
+                    if (colors[data.fillKey].length > 2) {
+                      return `<div class="hoverinfo"> <div class="title">${data.city}</div> <div class="container" style="display: flex; align-items: center; justify-content: center"><div class="hex" style="border: 1px solid black; background-color: ${colors[data.fillKey][0]}; height: 20px; width: 20px"></div> <div class="hex" style="background-color: ${colors[data.fillKey][1]}; height: 20px; width: 20px"></div></div> <div class="hex" style="background-color: ${colors[data.fillKey][2]}; height: 20px; width: 20px"></div></div> <div class="image" style="height: 150px; background-image: url(${`https://source.unsplash.com/random/?${data.fillKey}`})"></div></div>`
+                    } else {
+                      return `<div class="hoverinfo"> <div class="title">${data.city}</div> <div class="container" style="display: flex; align-items: center; justify-content: center"><div class="hex" style="background-color: ${colors[data.fillKey][0]}; height: 20px; width: 20px"></div> <div class="hex" style="background-color: ${colors[data.fillKey][1]}; height: 20px; width: 20px"></div></div> <div class="image" style="background-image: url(${`https://source.unsplash.com/random/?${data.fillKey}`}); height: 150px"></div></div>`
+                    }
                   },
                   fillOpacity: 1,
                   animate: true,
@@ -386,7 +390,7 @@ imageUrl = []
 
 function app2() {
   const app2 = new Clarifai.App({
-   apiKey: '35d4012aa10f4c97b74bb0bce5082bc8'
+   apiKey: '6570ec56608544d99af0300e3f7ed6b1'
   });
 
   app2.models.predict("eeed0b6733a644cea07cf4c60f87ebb7", array2).then(
@@ -401,7 +405,7 @@ function app2() {
               // console.log(d);
               tempColor.push(response.outputs[c].data.colors[d].raw_hex);
             };
-            colors.push(tempColor);
+            colors[city] = tempColor;
           }
           console.log("outside 2");
           app3();
@@ -415,7 +419,7 @@ function app2() {
 
 function app3() {
   const app3 = new Clarifai.App({
-   apiKey: '4ca3d62af6c942a0b95ad8c17f7f8f5f'
+   apiKey: 'c34578ea9d6c4308a91d4e1be6f94ad6'
   });
 
   app3.models.predict("eeed0b6733a644cea07cf4c60f87ebb7", array3).then(
@@ -429,7 +433,7 @@ function app3() {
             for (var f = 0; f < response.outputs[e].data.colors.length; f++) {
               tempColor.push(response.outputs[e].data.colors[f].raw_hex);
             };
-            colors.push(tempColor);
+            colors[city] = tempColor;
           }
           console.log("outside 3");
           createMap();
@@ -453,11 +457,11 @@ array3 = imageUrl.slice(60, 90);
 
 // console.log(array1, array2, array3);
 
-var colors = [];
+var colors = {};
 
 // instantiate a new Clarifai app passing in your api key.
 const app1 = new Clarifai.App({
- apiKey: 'a5f5d8697be448f2bb8f8ea28a8d5dd1'
+ apiKey: '7286d0726e06411fbe7020e566d282da'
 });
 
 console.log("running clar");
@@ -477,8 +481,8 @@ app1.models.predict("eeed0b6733a644cea07cf4c60f87ebb7", array1).then(
             // console.log("colors", response.outputs[a].data.colors[b].raw_hex);
             tempColor.push(response.outputs[a].data.colors[b].raw_hex);
           };
-          colors.push(tempColor);
-          console.log(a, colors);
+          colors[city] = tempColor;
+          // console.log(a, colors);
         }
         console.log("outside 1");
         app2();
