@@ -6,8 +6,91 @@ var philadelphiasolid;
 var phoenixsolid;
 var sanantoniosolid;
 var sandiegosolid;
+var dallassolid;
+var sanjosesolid;
+var austinsolid;
+var indianapolissolid;
+var jacksonvillesolid;
+var sanfranciscosolid;
+var columbussolid;
+var charlottesolid;
+var fortworthsolid;
+var detroitsolid;
+var elpasosolid;
+var memphissolid;
+var seattlesolid;
+var denversolid;
+var washingtonsolid;
+var bostonsolid;
+var nashvillesolid;
+var baltimoresolid;
+var oklahomacitysolid;
+var louisvillesolid;
+var portlandsolid;
+var lasvegassolid;
+var milwaukeesolid;
+var albuquerquesolid;
+var tucsonsolid;
+var fresnosolid;
+var sacramentosolid;
+var longbeachsolid;
+var kansascitysolid;
+var mesasolid;
+var virginiabeachsolid;
+var atlantasolid;
+var coloradospringssolid;
+var omahasolid;
+var raleighsolid;
+var miamisolid;
+var minneapolissolid;
+var tulsasolid;
+var clevelandsolid;
+var wichitasolid;
+var neworleanssolid;
+var bakersfieldsolid;
+var tampasolid;
+var honolulusolid;
+var stlouissolid;
+var riversidesolid;
+var corpuschristisolid;
+var lexingtonfayettesolid;
+var pittsburghsolid;
+var anchoragesolid;
+var cincinnatisolid;
+var stpaulsolid;
+var toledosolid;
+var greensborosolid;
+var newarksolid;
+var lincolnsolid;
+var buffalosolid;
+var fortwaynesolid;
+var orlandosolid;
+var laredosolid;
+var madisonsolid;
+var lubbocksolid;
+var renosolid;
+var batonrougesolid;
+var boisecitysolid;
+var richmondsolid;
+var birminghamsolid;
+var spokanesolid;
+var rochestersolid;
+var desmoinessolid;
+var tacomasolid;
+var montgomerysolid;
+var shreveportsolid;
+var aurorasolid;
+var littlerocksolid;
+var augustasolid;
+var amarillosolid;
+var mobilesolid;
+var grandrapidssolid;
+var saltlakecitysolid;
+var tallahasseesolid;
+var huntsvillesolid;
 
 function createMap() {
+  console.log("create map");
   var bubble_map = new Datamap({
               element: document.getElementById('container'),
               scope: 'usa',
@@ -24,7 +107,7 @@ function createMap() {
                   borderOpacity: 1,
                   borderColor: '#FFFFFF',
                   popupOnHover: true,
-                  radius: null,
+                  radius: 4,
                   popupTemplate: function(geography, data) {
                     return `<div class="hoverinfo"> ${data.city} </div>`;
                   },
@@ -130,18 +213,7 @@ function createMap() {
                   grandrapids: 'url(#grandrapids)',
                   saltlakecity: 'url(#saltlakecity)',
                   tallahassee: 'url(#tallahassee)',
-                  huntsville: 'url(#huntsville)',
-                  knoxville: 'url(#knoxville)',
-                  brownsville: 'url(#brownsville)',
-                  providence: 'url(#providence)',
-                  chattanooga: 'url(#chattanooga)',
-                  jackson: 'url(#jackson)',
-                  fortlauderdale: 'url(#fortlauderdale)',
-                  portstlucie: 'url(#portstlucie)',
-                  capecoral: 'url(#capecoral)',
-                  siouxfalls: 'url(#siouxfalls)',
-                  springfield: 'url(#springfield)',
-                  acadia: 'url(#acadia)'
+                  huntsville: 'url(#huntsville)'
               },
               // gradients: {
               //     defaultFill: '#282828',
@@ -234,22 +306,15 @@ function createMap() {
               //     grandrapidssolid: grandrapidssolid,
               //     saltlakecitysolid: saltlakecitysolid,
               //     tallahasseesolid: tallahasseesolid,
-              //     huntsvillesolid: huntsvillesolid,
-              //     knoxvillesolid: knoxvillesolid,
-              //     brownsvillesolid: brownsvillesolid,
-              //     providencesolid: providencesolid,
-              //     chattanoogasolid: chattanoogasolid,
-              //     jacksonsolid: jacksonsolid,
-              //     fortlauderdalesolid: fortlauderdalesolid,
-              //     portstluciesolid: portstluciesolid,
-              //     capecoralsolid: capecoralsolid,
-              //     siouxfallssolid: siouxfallssolid,
-              //     springfieldsolid: springfieldsolid,
-              //     acadiasolid: acadiasolid
+              //     huntsvillesolid: huntsvillesolid
               // },
           });
 
+  console.log("before bubbles");
+
   bubble_map.bubbles(cities);
+
+  console.log("after bubbles");
 
   // add the fading bubbles plugin
   bubble_map.addPlugin('fadingBubbles', fadingBubbles);
@@ -281,7 +346,7 @@ function createMap() {
 
 
 function makeGradient(hex1, hex2, city) {
-  console.log(hex1, hex2, city);
+  // console.log(hex1, hex2, city);
   // lineargradient
   var myLinearGradient = document.createElementNS("http://www.w3.org/2000/svg", "linearGradient");
   myLinearGradient.setAttribute("id", city);
@@ -290,13 +355,13 @@ function makeGradient(hex1, hex2, city) {
 
   //stops
   var stop1 = document.createElementNS("http://www.w3.org/2000/svg", "stop");
-  stop1.setAttribute("offset", "10%");
+  stop1.setAttribute("offset", "5%");
   //stop1.setAttribute("style", "stop-color: White; stop-opacity: 1");
   stop1.setAttribute("stop-color", hex1);
   document.getElementById(city).appendChild(stop1);
 
   var stop2 = document.createElementNS("http://www.w3.org/2000/svg", "stop");
-  stop2.setAttribute("offset", "90%");
+  stop2.setAttribute("offset", "95%");
   //stop2.setAttribute("style", "stop-color: #99cd9f; stop-opacity: 1");
   stop2.setAttribute("stop-color", hex2);
   document.getElementById(city).appendChild(stop2);
@@ -308,44 +373,144 @@ function makeGradient(hex1, hex2, city) {
   //
   // document.getElementById("mydefs").appendChild(solid);
 
-  window[`${city}solid`] = hex1;
+  // window[`${city}solid`] = hex1;
+  // console.log(`${city}solid`);
+  // console.log(hex1);
 
   defs = document.getElementById('mydefs');
-  console.log("defs:", defs);
+  // console.log("defs:", defs);
 }
 
 imageUrl = []
 
+
+function app2() {
+  const app2 = new Clarifai.App({
+   apiKey: '35d4012aa10f4c97b74bb0bce5082bc8'
+  });
+
+  app2.models.predict("eeed0b6733a644cea07cf4c60f87ebb7", array2).then(
+        function(response) {
+          console.log(response);
+          for (var c = 0; c < array2.length; c++){
+            var url = array2[c];
+            var city = url.substring(url.lastIndexOf("?") + 1);
+            makeGradient(response.outputs[c].data.colors[0].raw_hex, response.outputs[c].data.colors[1].raw_hex, city);
+            let tempColor = [];
+            for (var d = 0; d < response.outputs[c].data.colors.length; d++) {
+              // console.log(d);
+              tempColor.push(response.outputs[c].data.colors[d].raw_hex);
+            };
+            colors.push(tempColor);
+          }
+          console.log("outside 2");
+          app3();
+        },
+        function(err) {
+          console.log(image)
+          console.log(err)
+        }
+    );
+}
+
+function app3() {
+  const app3 = new Clarifai.App({
+   apiKey: '4ca3d62af6c942a0b95ad8c17f7f8f5f'
+  });
+
+  app3.models.predict("eeed0b6733a644cea07cf4c60f87ebb7", array3).then(
+        function(response) {
+          console.log(response);
+          for (var e = 0; e < array3.length; e++){
+            var url = array3[e];
+            var city = url.substring(url.lastIndexOf("?") + 1);
+            makeGradient(response.outputs[e].data.colors[0].raw_hex, response.outputs[e].data.colors[1].raw_hex, city);
+            let tempColor = [];
+            for (var f = 0; f < response.outputs[e].data.colors.length; f++) {
+              tempColor.push(response.outputs[e].data.colors[f].raw_hex);
+            };
+            colors.push(tempColor);
+          }
+          console.log("outside 3");
+          createMap();
+        },
+        function(err) {
+          console.log(image)
+          console.log(err)
+        }
+    );
+}
+
 for (const [key, value] of Object.entries(cities)) {
-  console.log(key, value);
+  // console.log(key, value);
   imageUrl.push("https://source.unsplash.com/random/?" + value.fillKey)
 }
 
 array1 = imageUrl.slice(0,30);
 array2 = imageUrl.slice(30,60);
 array3 = imageUrl.slice(60, 90);
-array4 = imageUrl.slice(90);
+// array4 = imageUrl.slice(90);
+
+// console.log(array1, array2, array3);
+
+var colors = [];
 
 // instantiate a new Clarifai app passing in your api key.
-const app = new Clarifai.App({
- apiKey: '4ca3d62af6c942a0b95ad8c17f7f8f5f'
+const app1 = new Clarifai.App({
+ apiKey: 'a5f5d8697be448f2bb8f8ea28a8d5dd1'
 });
 
-app.models.predict("eeed0b6733a644cea07cf4c60f87ebb7", array1).then(
+console.log("running clar");
+
+app1.models.predict("eeed0b6733a644cea07cf4c60f87ebb7", array1).then(
       function(response) {
         console.log(response);
-        for (var i = 0; i < array1.length; i++){
-          var url = array1[i]
+        // console.log(array1.length);
+        for (var a = 0; a < array1.length; a++) {
+          var url = array1[a];
+          // console.log(a);
           var city = url.substring(url.lastIndexOf("?") + 1);
-          makeGradient(response.outputs[i].data.colors[0].raw_hex, response.outputs[i].data.colors[1].raw_hex, city)
+          // console.log(city);
+          makeGradient(response.outputs[a].data.colors[0].raw_hex, response.outputs[a].data.colors[1].raw_hex, city);
+          let tempColor = [];
+          for (var b = 0; b < response.outputs[a].data.colors.length; b++) {
+            // console.log("colors", response.outputs[a].data.colors[b].raw_hex);
+            tempColor.push(response.outputs[a].data.colors[b].raw_hex);
+          };
+          colors.push(tempColor);
+          console.log(a, colors);
         }
-        createMap();
+        console.log("outside 1");
+        app2();
       },
       function(err) {
         console.log(image)
         console.log(err)
       }
   );
+
+// app.models.predict("eeed0b6733a644cea07cf4c60f87ebb7", array4).then(
+//       function(response) {
+//         console.log(response);
+//         for (var i = 0; i < array4.length; i++){
+//           var url = array4[i]
+//           var city = url.substring(url.lastIndexOf("?") + 1);
+//           makeGradient(response.outputs[i].data.colors[0].raw_hex, response.outputs[i].data.colors[1].raw_hex, city)
+//           let tempColor = []
+//           for (var i = 0; i < response.outputs[i].data.colors; i++) {
+//             tempColor.push(response.outputs[i].data.colors[i].raw_hex)
+//           }
+//           colors.push(tempColor)
+//           console.log(i)
+//         }
+//         console.log("outside 4");
+//         createMap();
+//       },
+//       function(err) {
+//         console.log(image)
+//         console.log(err)
+//       }
+//   );
 
 // function getHex(colors) {
 //   boxes = document.querySelectorAll(".hex")

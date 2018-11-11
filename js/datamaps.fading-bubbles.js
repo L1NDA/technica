@@ -77,9 +77,52 @@ fadingBubbles = function(layer, data){
         //     return defaultColor;
         //
         // })
-        .style('fill', function ( datum ) {
-          var fillColor = gradientData[datum.gradientKey];
-          return fillColor || gradientData.defaultFill;
+        // .style('fill', function ( datum ) {
+        //   var fillColor = gradientData[datum.gradientKey];
+        //   return fillColor || gradientData.defaultFill;
+        // })
+
+        // .style('fill', function ( datum ) {
+        //   console.log(datum);
+        //   var fillColor = gradientData[datum.gradientKey];
+        //   console.log("fillColor", fillColor);
+        //   var color = fillColor.substring(fillColor.lastIndexOf("#") + 1);
+        //   console.log("color", color);
+        //   return `#${color}40` || gradientData.defaultFill;
+        //   // return rgba(0,0,0,0)
+        // })
+        // .style('stroke', function(datum, i) {
+        //
+        //     // // same logic as the fill property
+        //     // if (self.options.fills && d.fillKey) {
+        //     //
+        //     //     if (self.options.fills[d.fillKey]) {
+        //     //         return self.options.fills[d.fillKey];
+        //     //     }
+        //     // }
+        //     // return defaultColor;
+        //     // var fillColor = gradientData[datum.gradientKey];
+        //     // return fillColor || gradientData.defaultFill;
+        //     return "white"
+        // })
+
+        .style('fill', function(d, i) {
+
+            /**
+             * If a fillKey was specified in the data, and if the datamap
+             * was initialized with the "fills" option, then use the color
+             * of this fill key for this bubble
+             */
+            if (self.options.fills && d.fillKey) {
+
+                if (self.options.fills[d.fillKey]) {
+                    return self.options.fills[d.fillKey];
+                }
+            }
+
+            // no fillKey was specified, so use the default color
+            return defaultColor;
+
         })
         .style('stroke', function(d, i) {
 
@@ -92,8 +135,9 @@ fadingBubbles = function(layer, data){
             }
             return defaultColor;
         })
+
         .transition()
-        .duration(3000)
+        .duration(1000)
         .ease(Math.sqrt)
         .attr('r', function(datum) {
 
@@ -104,8 +148,8 @@ fadingBubbles = function(layer, data){
             return datum.magnitude ? datum.magnitude * 10 : 30;
 
         })
-        .style('fill-opacity', 1)
-        .style('stroke-opacity', 1)
+        .style('fill-opacity', 1e-6)
+        .style('stroke-opacity', 1e-6)
         .remove()
 
 }
