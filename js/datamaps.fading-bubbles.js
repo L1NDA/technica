@@ -104,8 +104,8 @@ fadingBubbles = function(layer, data){
             return datum.magnitude ? datum.magnitude * 10 : 30;
 
         })
-        .style('fill-opacity', 1e-6)
-        .style('stroke-opacity', 1e-6)
+        .style('fill-opacity', 1)
+        .style('stroke-opacity', 1)
         .remove()
 
 }
