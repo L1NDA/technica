@@ -74,7 +74,7 @@ var bubble_map = new Datamap({
                 popupOnHover: true,
                 radius: null,
                 popupTemplate: function(geography, data) {
-                  return `<div class="hoverinfo"> ${data.state} </div>`;
+                  return `<div class="hoverinfo"> ${data.city} </div>`;
                 },
                 fillOpacity: 1,
                 animate: true,

@@ -1,4 +1,5 @@
-let cities = [
+let cities =
+[
     {
         city: "New York",
         latitude: 40.7127837,
@@ -352,14 +353,6 @@ let cities = [
         state: "Florida"
     },
     {
-        city: "Oakland",
-        latitude: 37.8043637,
-        longitude: -122.2711137,
-        radius: 10,
-        rank: "45",
-        state: "California"
-    },
-    {
         city: "Minneapolis",
         latitude: 44.977753,
         longitude: -93.2650108,
@@ -390,14 +383,6 @@ let cities = [
         radius: 10,
         rank: "49",
         state: "Kansas"
-    },
-    {
-        city: "Arlington",
-        latitude: 32.735687,
-        longitude: -97.10806559999999,
-        radius: 10,
-        rank: "50",
-        state: "Texas"
     },
     {
         city: "New Orleans",
@@ -438,22 +423,6 @@ let cities = [
         radius: 10,
         rank: "55",
         state: "Colorado"
-    },
-    {
-        city: "Anaheim",
-        latitude: 33.8352932,
-        longitude: -117.9145036,
-        radius: 10,
-        rank: "56",
-        state: "California"
-    },
-    {
-        city: "Santa Ana",
-        latitude: 33.7455731,
-        longitude: -117.8678338,
-        radius: 10,
-        rank: "57",
-        state: "California"
     },
     {
         city: "St. Louis",
@@ -504,14 +473,6 @@ let cities = [
         state: "Alaska"
     },
     {
-        city: "Stockton",
-        latitude: 37.9577016,
-        longitude: -121.2907796,
-        radius: 10,
-        rank: "64",
-        state: "California"
-    },
-    {
         city: "Cincinnati",
         latitude: 39.1031182,
         longitude: -84.5120196,
@@ -552,14 +513,6 @@ let cities = [
         state: "New Jersey"
     },
     {
-        city: "Plano",
-        latitude: 33.0198431,
-        longitude: -96.6988856,
-        radius: 10,
-        rank: "70",
-        state: "Texas"
-    },
-    {
         city: "Henderson",
         latitude: 36.0395247,
         longitude: -114.9817213,
@@ -584,22 +537,6 @@ let cities = [
         state: "New York"
     },
     {
-        city: "Jersey City",
-        latitude: 40.72815749999999,
-        longitude: -74.0776417,
-        radius: 10,
-        rank: "74",
-        state: "New Jersey"
-    },
-    {
-        city: "Chula Vista",
-        latitude: 32.6400541,
-        longitude: -117.0841955,
-        radius: 10,
-        rank: "75",
-        state: "California"
-    },
-    {
         city: "Fort Wayne",
         latitude: 41.079273,
         longitude: -85.1393513,
@@ -614,22 +551,6 @@ let cities = [
         radius: 10,
         rank: "77",
         state: "Florida"
-    },
-    {
-        city: "St. Petersburg",
-        latitude: 27.773056,
-        longitude: -82.64,
-        radius: 10,
-        rank: "78",
-        state: "Florida"
-    },
-    {
-        city: "Chandler",
-        latitude: 33.3061605,
-        longitude: -111.8412502,
-        radius: 10,
-        rank: "79",
-        state: "Arizona"
     },
     {
         city: "Laredo",
@@ -648,14 +569,6 @@ let cities = [
         state: "Virginia"
     },
     {
-        city: "Durham",
-        latitude: 35.9940329,
-        longitude: -78.898619,
-        radius: 10,
-        rank: "82",
-        state: "North Carolina"
-    },
-    {
         city: "Madison",
         latitude: 43.0730517,
         longitude: -89.4012302,
@@ -672,46 +585,6 @@ let cities = [
         state: "Texas"
     },
     {
-        city: "Irvine",
-        latitude: 33.6839473,
-        longitude: -117.7946942,
-        radius: 10,
-        rank: "85",
-        state: "California"
-    },
-    {
-        city: "Winston-Salem",
-        latitude: 36.09985959999999,
-        longitude: -80.244216,
-        radius: 10,
-        rank: "86",
-        state: "North Carolina"
-    },
-    {
-        city: "Glendale",
-        latitude: 33.5386523,
-        longitude: -112.1859866,
-        radius: 10,
-        rank: "87",
-        state: "Arizona"
-    },
-    {
-        city: "Garland",
-        latitude: 32.912624,
-        longitude: -96.63888329999999,
-        radius: 10,
-        rank: "88",
-        state: "Texas"
-    },
-    {
-        city: "Hialeah",
-        latitude: 25.8575963,
-        longitude: -80.2781057,
-        radius: 10,
-        rank: "89",
-        state: "Florida"
-    },
-    {
         city: "Reno",
         latitude: 39.5296329,
         longitude: -119.8138027,
@@ -720,44 +593,12 @@ let cities = [
         state: "Nevada"
     },
     {
-        city: "Chesapeake",
-        latitude: 36.7682088,
-        longitude: -76.2874927,
-        radius: 10,
-        rank: "91",
-        state: "Virginia"
-    },
-    {
-        city: "Gilbert",
-        latitude: 33.3528264,
-        longitude: -111.789027,
-        radius: 10,
-        rank: "92",
-        state: "Arizona"
-    },
-    {
         city: "Baton Rouge",
         latitude: 30.4582829,
         longitude: -91.1403196,
         radius: 10,
         rank: "93",
         state: "Louisiana"
-    },
-    {
-        city: "Irving",
-        latitude: 32.8140177,
-        longitude: -96.9488945,
-        radius: 10,
-        rank: "94",
-        state: "Texas"
-    },
-    {
-        city: "Scottsdale",
-        latitude: 33.4941704,
-        longitude: -111.9260519,
-        radius: 10,
-        rank: "95",
-        state: "Arizona"
     },
     {
         city: "North Las Vegas",
@@ -816,14 +657,6 @@ let cities = [
         state: "Iowa"
     },
     {
-        city: "Fayetteville",
-        latitude: 35.0526641,
-        longitude: -78.87835849999999,
-        radius: 10,
-        rank: "106",
-        state: "North Carolina"
-    },
-    {
         city: "Tacoma",
         latitude: 47.2528768,
         longitude: -122.4442906,
@@ -862,14 +695,6 @@ let cities = [
         radius: 10,
         rank: "114",
         state: "Illinois"
-    },
-    {
-        city: "Yonkers",
-        latitude: 40.9312099,
-        longitude: -73.89874689999999,
-        radius: 10,
-        rank: "115",
-        state: "New York"
     },
     {
         city: "Akron",
@@ -944,36 +769,12 @@ let cities = [
         state: "Alabama"
     },
     {
-        city: "Grand Prairie",
-        latitude: 32.7459645,
-        longitude: -96.99778459999999,
-        radius: 10,
-        rank: "127",
-        state: "Texas"
-    },
-    {
         city: "Knoxville",
         latitude: 35.9606384,
         longitude: -83.9207392,
         radius: 10,
         rank: "128",
         state: "Tennessee"
-    },
-    {
-        city: "Worcester",
-        latitude: 42.2625932,
-        longitude: -71.8022934,
-        radius: 10,
-        rank: "129",
-        state: "Massachusetts"
-    },
-    {
-        city: "Newport News",
-        latitude: 37.0870821,
-        longitude: -76.4730122,
-        radius: 10,
-        rank: "130",
-        state: "Virginia"
     },
     {
         city: "Brownsville",
@@ -1032,14 +833,6 @@ let cities = [
         state: "Florida"
     },
     {
-        city: "Tempe",
-        latitude: 33.4255104,
-        longitude: -111.9400054,
-        radius: 10,
-        rank: "143",
-        state: "Arizona"
-    },
-    {
         city: "Vancouver",
         latitude: 45.6387281,
         longitude: -122.6614861,
@@ -1072,19 +865,11 @@ let cities = [
         state: "Missouri"
     },
     {
-        city: "Peoria",
-        latitude: 33.5805955,
-        longitude: -112.2373779,
-        radius: 10,
-        rank: "149",
-        state: "Arizona"
+        city: "Portland",
+        latitude: 43.66147100000001,
+        longitude: -70.2553259,
+        radius: 5,
+        rank: "519",
+        state: "Maine"
     },
-    {
-        city: "Pembroke Pines",
-        latitude: 26.007765,
-        longitude: -80.2962555,
-        radius: 10,
-        rank: "150",
-        state: "Florida"
-    }
 ]
