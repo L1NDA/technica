@@ -62,7 +62,7 @@ fadingBubbles = function(layer, data){
             return defaultColor;
         })
         .transition()
-        .duration(4000)
+        .duration(3000)
         .ease(Math.sqrt)
         .attr('r', function(datum) {
 
