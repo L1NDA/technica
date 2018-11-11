@@ -7,13 +7,13 @@ function makeGradient(hex1, hex2, city) {
 
   //stops
   var stop1 = document.createElementNS("http://www.w3.org/2000/svg", "stop");
-  stop1.setAttribute("offset", "45%");
+  stop1.setAttribute("offset", "75%");
   //stop1.setAttribute("style", "stop-color: White; stop-opacity: 1");
   stop1.setAttribute("stop-color", "#858b87");
   document.getElementById("gradient").appendChild(stop1);
 
   var stop2 = document.createElementNS("http://www.w3.org/2000/svg", "stop");
-  stop2.setAttribute("offset", "95%");
+  stop2.setAttribute("offset", "100%");
   //stop2.setAttribute("style", "stop-color: #99cd9f; stop-opacity: 1");
   stop2.setAttribute("stop-color", "#ab4d2b");
   document.getElementById("gradient").appendChild(stop2);
@@ -33,8 +33,8 @@ const app = new Clarifai.App({
 
 app.models.predict("eeed0b6733a644cea07cf4c60f87ebb7", imageUrl).then(
       function(response) {
-        // colors = response.outputs[0].data.colors
-        getHex(response.outputs[0].data.colors[0], response.outputs[0].data.colors[1], imageUrl)
+        var city = imageUrl.substring(imageUrl.lastIndexOf("?") + 1);
+        getHex(response.outputs[0].data.colors[0], response.outputs[0].data.colors[1], city)
       },
       function(err) {
         console.log(image)

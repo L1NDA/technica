@@ -7,7 +7,7 @@ let cities =
         radius: 25,
         rank: "1",
         state: "New York",
-        fillKey: "GRAD"
+        gradientKey: "GRAD"
     },
     {
         city: "Los Angeles",
@@ -16,7 +16,7 @@ let cities =
         radius: 20,
         rank: "2",
         state: "California",
-        fillKey: "GRAD"
+        gradientKey: "GRAD"
     },
     {
         city: "Chicago",
@@ -60,7 +60,7 @@ let cities =
         longitude: -98.49362819999999,
         radius: 15,
         rank: "7",
-        state: "Texas"
+        gradientKey: "GRAD"
     },
     {
         city: "San Diego",
@@ -68,7 +68,7 @@ let cities =
         longitude: -117.1610838,
         radius: 15,
         rank: "8",
-        state: "California"
+        gradientKey: "GRAD"
     },
     {
         city: "Dallas",
@@ -76,7 +76,7 @@ let cities =
         longitude: -96.79698789999999,
         radius: 15,
         rank: "9",
-        state: "Texas"
+        gradientKey: "GRAD"
     },
     {
         city: "San Jose",
@@ -84,7 +84,7 @@ let cities =
         longitude: -121.8863286,
         radius: 6,
         rank: "10",
-        state: "California"
+        gradientKey: "GRAD"
     },
     {
         city: "Austin",
@@ -92,7 +92,7 @@ let cities =
         longitude: -97.7430608,
         radius: 6,
         rank: "11",
-        state: "Texas"
+        gradientKey: "GRAD"
     },
     {
         city: "Indianapolis",
@@ -100,7 +100,7 @@ let cities =
         longitude: -86.158068,
         radius: 6,
         rank: "12",
-        state: "Indiana"
+        gradientKey: "GRAD"
     },
     {
         city: "Jacksonville",

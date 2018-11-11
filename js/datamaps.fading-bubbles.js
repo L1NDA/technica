@@ -1,9 +1,33 @@
+function val( datumValue, optionsValue, context ) {
+    if ( typeof context === 'undefined' ) {
+      context = optionsValue;
+      optionsValues = undefined;
+    }
+    var value = typeof datumValue !== 'undefined' ? datumValue : optionsValue;
+
+    if (typeof value === 'undefined') {
+      return  null;
+    }
+
+    if ( typeof value === 'function' ) {
+      var fnContext = [context];
+      if ( context.geography ) {
+        fnContext = [context.geography, context.data];
+      }
+      return value.apply(null, fnContext);
+    }
+    else {
+      return value;
+    }
+  }
+
 fadingBubbles = function(layer, data){
 
     // the datamap instance
     var self = this,
         className = 'fadingBubble',
         defaultColor = 'white';
+        fillData = this.options.fills;
 
     // bind the data
     var bubbles = layer
@@ -32,24 +56,30 @@ fadingBubbles = function(layer, data){
              */
             return 1;
         })
-        .style('fill', function(d, i) {
-
-            /**
-             * If a fillKey was specified in the data, and if the datamap
-             * was initialized with the "fills" option, then use the color
-             * of this fill key for this bubble
-             */
-            // if (self.options.fills && d.fillKey) {
-            //
-            //     if (self.options.fills[d.fillKey]) {
-            //         return self.options.fills[d.fillKey];
-            //     }
-            // }
-            return self.options.fills[d.fillKey];
-
-            // no fillKey was specified, so use the default color
-            return defaultColor;
-
+        // .style('fill', function(d, i) {
+        //
+        //     /**
+        //      * If a fillKey was specified in the data, and if the datamap
+        //      * was initialized with the "fills" option, then use the color
+        //      * of this fill key for this bubble
+        //      */
+        //     // if (self.options.fills && d.fillKey) {
+        //     //
+        //     //     if (self.options.fills[d.fillKey]) {
+        //     //         return self.options.fills[d.fillKey];
+        //     //     }
+        //     // }
+        //     var datum = colorCodeData[d.id];
+        //     return fillData[ val(datum.fillKey, {data: colorCodeData[d.id], geography: d}) ]
+        //     return self.options.fills[d.fillKey];
+        //
+        //     // no fillKey was specified, so use the default color
+        //     return defaultColor;
+        //
+        // })
+        .style('fill', function ( datum ) {
+          var fillColor = fillData[datum.gradientKey];
+          return fillColor || fillData.defaultFill;
         })
         .style('stroke', function(d, i) {
 
