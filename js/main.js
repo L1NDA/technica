@@ -103,7 +103,7 @@ function createMap() {
                   //dataJson: topoJsonData
               },
               bubblesConfig: {
-                  borderWidth: 2,
+                  borderWidth: 1,
                   borderOpacity: 1,
                   borderColor: '#FFFFFF',
                   popupOnHover: true,
@@ -129,7 +129,7 @@ function createMap() {
                   key: JSON.stringify
               },
               fills: {
-                  defaultFill: '#282828',
+                  defaultFill: '#1e1e1e',
                   newyork: 'url(#newyork)',
                   losangeles: 'url(#losangeles)',
                   chicago: 'url(#chicago)',
