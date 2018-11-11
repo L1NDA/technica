@@ -338,7 +338,7 @@ let cities =
     },
     {
         city: "Virginia Beach",
-        gradientKey: "virginia beach",
+        gradientKey: "virginiabeach",
         latitude: 36.8529263,
         longitude: -75.97798499999999,
         radius: 10,
