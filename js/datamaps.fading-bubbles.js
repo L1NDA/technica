@@ -77,20 +77,27 @@ fadingBubbles = function(layer, data){
         //     return defaultColor;
         //
         // })
+        // .style('fill', function ( datum ) {
+        //   var fillColor = gradientData[datum.gradientKey];
+        //   return fillColor || gradientData.defaultFill;
+        // })
         .style('fill', function ( datum ) {
           var fillColor = gradientData[datum.gradientKey];
-          return fillColor || gradientData.defaultFill;
+          var color = fillColor.substring(fillColor.lastIndexOf("#"));
+          return `#40${color}` || gradientData.defaultFill;
         })
         .style('stroke', function(d, i) {
 
-            // same logic as the fill property
-            if (self.options.fills && d.fillKey) {
-
-                if (self.options.fills[d.fillKey]) {
-                    return self.options.fills[d.fillKey];
-                }
-            }
-            return defaultColor;
+            // // same logic as the fill property
+            // if (self.options.fills && d.fillKey) {
+            //
+            //     if (self.options.fills[d.fillKey]) {
+            //         return self.options.fills[d.fillKey];
+            //     }
+            // }
+            // return defaultColor;
+            var fillColor = gradientData[datum.gradientKey];
+            return fillColor || gradientData.defaultFill;
         })
         .transition()
         .duration(3000)

@@ -39,7 +39,7 @@ function createMap() {
                   exitDelay: 100,
                   key: JSON.stringify
               },
-              fills: {
+              gradients: {
                   defaultFill: '#282828',
                   newyorksolid: newyorksolid,
                   losangelessolid: losangelessolid,
@@ -49,10 +49,10 @@ function createMap() {
                   phoenixsolid: phoenixsolid,
                   sanantoniosolid: sanantoniosolid,
                   sandiegosolid: sandiegosolid,
-                  dallas: 'url(#dallassolid)',
-                  sanjose: 'url(#sanjosesolid)',
-                  austin: 'url(#austinsolid)',
-                  indianapolis: 'url(#indianapolissolid)',
+                  dallas: dallas,
+                  sanjose: sanjose,
+                  austin: austin,
+                  indianapolis: indianapolis,
                   jacksonville: 'url(#jacksonvillesolid)',
                   sanfrancisco: 'url(#sanfranciscosolid)',
                   columbus: 'url(#columbussolid)',
@@ -143,7 +143,7 @@ function createMap() {
                   springfield: 'url(#springfieldsolid)',
                   acadia: 'url(#acadiasolid)'
               },
-              gradients: {
+              fills: {
                   defaultFill: '#ffffff',
                   newyork: 'url(#newyork)',
                   losangeles: 'url(#losangeles)',
@@ -283,20 +283,20 @@ function createMap() {
 function makeGradient(hex1, hex2, city) {
   console.log(hex1, hex2, city);
   // lineargradient
-  var myLinearGradient = document.createElementNS("http://www.w3.org/2000/svg", "radialGradient");
+  var myLinearGradient = document.createElementNS("http://www.w3.org/2000/svg", "linearGradient");
   myLinearGradient.setAttribute("id", city);
 
   document.getElementById("mydefs").appendChild(myLinearGradient);
 
   //stops
   var stop1 = document.createElementNS("http://www.w3.org/2000/svg", "stop");
-  stop1.setAttribute("offset", "10%");
+  stop1.setAttribute("offset", "5%");
   //stop1.setAttribute("style", "stop-color: White; stop-opacity: 1");
   stop1.setAttribute("stop-color", hex1);
   document.getElementById(city).appendChild(stop1);
 
   var stop2 = document.createElementNS("http://www.w3.org/2000/svg", "stop");
-  stop2.setAttribute("offset", "90%");
+  stop2.setAttribute("offset", "95%");
   //stop2.setAttribute("style", "stop-color: #99cd9f; stop-opacity: 1");
   stop2.setAttribute("stop-color", hex2);
   document.getElementById(city).appendChild(stop2);
@@ -326,6 +326,8 @@ array2 = imageUrl.slice(30,60);
 array3 = imageUrl.slice(60, 90);
 array4 = imageUrl.slice(90);
 
+var colors = []
+
 // instantiate a new Clarifai app passing in your api key.
 const app = new Clarifai.App({
  apiKey: '4ca3d62af6c942a0b95ad8c17f7f8f5f'
@@ -338,8 +340,9 @@ app.models.predict("eeed0b6733a644cea07cf4c60f87ebb7", array1).then(
           var url = array1[i]
           var city = url.substring(url.lastIndexOf("?") + 1);
           makeGradient(response.outputs[i].data.colors[0].raw_hex, response.outputs[i].data.colors[1].raw_hex, city)
+          // for (const [key, value] of Object.entries(cities))
         }
-        createMap();
+        createMap(colors);
       },
       function(err) {
         console.log(image)
