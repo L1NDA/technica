@@ -97,4 +97,31 @@ var bubble_map = new Datamap({
             }
         });
 
-bubble_map.bubbles(cities);
+// add the fading bubbles plugin
+bubble_map.addPlugin('fadingBubbles', fadingBubbles);
+
+// draw the fading bubbles at staggered intervals
+drawBubbles = function(data) {
+
+  data.forEach(function(datum, index) {
+
+      setTimeout(function() {
+
+          bubble_map.fadingBubbles([datum]);
+
+      }, index * 100);
+
+  });
+
+}
+
+drawBubbles(cities);
+
+var sleep = (cities.length - 1) * 100;
+
+setInterval(function() {
+  drawBubbles(cities);
+}, sleep);
+
+
+// bubble_map.bubbles(cities);
