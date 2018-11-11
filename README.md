@@ -11,8 +11,8 @@ First, we utilized the Unsplash API to search for photos by keywords to get the 
 * [HTML5 Boilerplate](https://html5boilerplate.com/) - The front-end template
 * [cities.json](https://gist.github.com/Miserlou/c5cd8364bf9b2420bb29) - Database of 1000 largest US cities
 
-## Authors
+## Contributors
 
-* **Linda Qin** - *Contributor* - [L1NDA](https://github.com/L1NDA)
-* **Helen Chen** - *Contributor* - [helenjjchen](https://github.com/helenjjchen)
-* **Rachel Leong** - *Contributor* - [rachellsmae](https://github.com/rachellsmae)
+* **Linda Qin** - [L1NDA](https://github.com/L1NDA)
+* **Helen Chen** - [helenjjchen](https://github.com/helenjjchen)
+* **Rachel Leong** - [rachellsmae](https://github.com/rachellsmae)
