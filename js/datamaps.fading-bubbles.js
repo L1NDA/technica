@@ -63,7 +63,7 @@ fadingBubbles = function(layer, data){
             return defaultColor;
         })
         .transition()
-        .duration(10000)
+        .duration(4000)
         .ease(Math.sqrt)
         .attr('r', function(datum) {
 
@@ -71,7 +71,7 @@ fadingBubbles = function(layer, data){
              * The size of the bubble can be controlled using the magnitude
              * property
              */
-            return datum.magnitude ? datum.magnitude * 40 : 50;
+            return datum.magnitude ? datum.magnitude * 10 : 30;
 
         })
         .style('fill-opacity', 1e-6)

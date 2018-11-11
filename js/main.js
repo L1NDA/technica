@@ -108,7 +108,7 @@ drawBubbles = function(data) {
 
             bubble_map.fadingBubbles([datum]);
 
-        }, Math.floor(Math.random() * 10000) * 10);
+      }, Math.floor(Math.random() * 4500) * 40);
 
     });
 
@@ -116,11 +116,12 @@ drawBubbles = function(data) {
 
 drawBubbles(cities);
 
-var sleep = 5000;
+var sleep = 10000;
 
 var interval = setInterval(function() {
   drawBubbles(cities);
   console.log(counter, interval);
 }, sleep);
+
 
 bubble_map.bubbles(cities);
