@@ -18,44 +18,34 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
 
-  <link href="css/jqvmap.css" media="screen" rel="stylesheet" type="text/css"/>
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+  <!-- <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script> -->
 
-  <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
-  <script type="text/javascript" src="js/jquery.vmap.js"></script>
-  <script type="text/javascript" src="js/jquery.vmap.usa.js" charset="utf-8"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/d3/3.5.3/d3.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/topojson/1.6.9/topojson.min.js"></script>
+  <script src="js/datamaps.usa.min.js"></script>
 
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
-
-  <script>
-    jQuery(document).ready(function () {
-      jQuery('#vmap').vectorMap({
-        map: 'usa_en',
-        enableZoom: true,
-        showTooltip: true,
-        selectedColor: null,
-        hoverColor: null,
-        colors: {
-          mo: '#C9DFAF',
-          fl: '#C9DFAF',
-          or: '#C9DFAF'
-        },
-        onRegionClick: function(event, code, region){
-          event.preventDefault();
-        }
-      });
-    });
-  </script>
 </head>
 
 <body>
   <!--[if lte IE 9]>
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
   <![endif]-->
+  <svg style="display: inherit; width: 0; height: 0;" id="svg">
+    <defs id="mydefs">
+      <!-- <linearGradient id="gradient">
+        <stop offset="5%" stop-color="#ab4d2b" />
+        <stop offset="95%" stop-color="#858b87" />
+      </linearGradient> -->
+    </defs>
+  </svg>
 
   <!-- Add your site or application content here -->
   <div class="background">
-    <div id="vmap" style="width: 600px; height: 400px;"></div>
+    <div id="container" style="position: relative; width: 800px; height: 400px;"></div>
     <!-- <div class="hex" id="1"></div>
     <div class="hex" id="2"></div>
     <div class="hex" id="3"></div>
