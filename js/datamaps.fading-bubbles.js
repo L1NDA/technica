@@ -145,7 +145,7 @@ fadingBubbles = function(layer, data){
              * The size of the bubble can be controlled using the magnitude
              * property
              */
-            return datum.magnitude ? datum.magnitude * 10 : 30;
+            return datum.magnitude ? datum.magnitude * 40 : 60;
 
         })
         .style('fill-opacity', 1e-6)

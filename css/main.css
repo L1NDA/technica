@@ -314,12 +314,18 @@ textarea {
      display: none;
    }
 
-   .title {
+   .header {
      font-family: 'Poppins', sans-serif;
-     font-weight: 700;
+     font-weight: 600;
      font-size: 100px;
      background: rgb(90,228,216);
      background: linear-gradient(68deg, rgba(90,228,216,1) 1%, rgba(255,176,132,1) 99%);
      -webkit-background-clip: text;
      -webkit-text-fill-color: transparent;
+   }
+
+   .hoverinfo {
+     padding: 20px;
+     height: 300px;
+     width: 300px;
    }

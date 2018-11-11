@@ -110,9 +110,11 @@ function createMap() {
                   radius: 4,
                   popupTemplate: function(geography, data) {
                     if (colors[data.fillKey].length > 2) {
-                      return `<div class="hoverinfo"> <div class="title">${data.city}</div> <div class="container" style="display: flex; align-items: center; justify-content: center"><div class="hex" style="border: 1px solid black; background-color: ${colors[data.fillKey][0]}; height: 20px; width: 20px"></div> <div class="hex" style="background-color: ${colors[data.fillKey][1]}; height: 20px; width: 20px"></div></div> <div class="hex" style="background-color: ${colors[data.fillKey][2]}; height: 20px; width: 20px"></div></div> <div class="image" style="height: 150px; background-image: url(${`https://source.unsplash.com/random/?${data.fillKey}`})"></div></div>`
+                      console.log(colors[data.fillKey]);
+                      return `<div class="hoverinfo"> <div class="title">${data.city}</div> <div class="container" style="display: flex; align-items: center; justify-content: center"><div class="hex" style="border: 1px solid black; background-color: ${colors[data.fillKey][0]}; height: 20px; width: 20px"></div> <div class="hex" style="background-color: ${colors[data.fillKey][1]}; height: 20px; width: 20px"></div><div class="hex" style="background-color: ${colors[data.fillKey][2]}; height: 20px; width: 20px"></div></div> <div class="image" style="height: 100px; width: 150px; background-image: url(${`https://source.unsplash.com/150x100/?${data.fillKey}`})"></div></div>`
                     } else {
-                      return `<div class="hoverinfo"> <div class="title">${data.city}</div> <div class="container" style="display: flex; align-items: center; justify-content: center"><div class="hex" style="background-color: ${colors[data.fillKey][0]}; height: 20px; width: 20px"></div> <div class="hex" style="background-color: ${colors[data.fillKey][1]}; height: 20px; width: 20px"></div></div> <div class="image" style="background-image: url(${`https://source.unsplash.com/random/?${data.fillKey}`}); height: 150px"></div></div>`
+                      console.log(colors[data.fillKey]);
+                      return `<div class="hoverinfo"> <div class="title">${data.city}</div> <div class="container" style="display: flex; align-items: center; justify-content: center"><div class="hex" style="background-color: ${colors[data.fillKey][0]}; height: 20px; width: 20px"></div> <div class="hex" style="background-color: ${colors[data.fillKey][1]}; height: 20px; width: 20px"></div></div> <div class="image" style="background-image: url(${`https://source.unsplash.com/150x100/?${data.fillKey}`}); height: 100px; width: 150px"></div></div>`
                     }
                   },
                   fillOpacity: 1,
@@ -463,7 +465,7 @@ var colors = {};
 
 // instantiate a new Clarifai app passing in your api key.
 const app1 = new Clarifai.App({
- apiKey: '7286d0726e06411fbe7020e566d282da'
+ apiKey: 'c34578ea9d6c4308a91d4e1be6f94ad6'
 });
 
 console.log("running clar");
